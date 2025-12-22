@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FBR Tax Assistant – Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        FBR Tax Assistant – Redesigned
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="login.html">Login / Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">Dashboard (Demo)</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="h3 mb-3 fw-bold text-center">Sign in to FBR Tax Assistant</h1>
+          <p class="text-center text-muted mb-4">
+            Demo login screen showing improved visibility of system status
+            and error prevention.
+          </p>
+
+          <div id="loginAlert" class="alert d-none" role="alert"></div>
+
+          <form id="loginForm" class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="loginCnic" class="form-label">
+                  CNIC (13 digits, numbers only)
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="loginCnic"
+                  placeholder="3520212345678"
+                  maxlength="13"
+                  required
+                />
+                <div class="form-text">
+                  Example: 13 digits without dashes.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="loginPassword" class="form-label">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="loginPassword"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary w-100"
+                id="loginButton"
+              >
+                Login
+              </button>
+
+              <div
+                id="loginLoading"
+                class="mt-3 d-none text-center text-muted small"
+              >
+                <div class="spinner-border spinner-border-sm me-2" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                Logging you in, please wait…
+              </div>
+
+              <hr class="my-4" />
+
+              <div class="d-flex justify-content-between">
+                <a href="#" class="small">Forgot password?</a>
+                <a href="#" class="small">New user? Register now</a>
+              </div>
+            </div>
+          </form>
+
+          <p class="small text-muted mt-3">
+            This screen addresses:
+            <strong>Visibility of system status</strong> (loading indicator),
+            <strong>Error prevention</strong> (basic CNIC validation),
+            and <strong>Consistency</strong> (same header/nav as other pages).
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-light border-top py-3 mt-5">
+    <div class="container text-center small text-muted">
+      HCI Project Prototype – Not an official FBR system.
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
