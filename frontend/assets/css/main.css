@@ -1,0 +1,74 @@
+/* Home / dashboard specific styles */
+
+body {
+  background: linear-gradient(#ffe3f0 0, #f7f7f7 220px);
+}
+
+.dashboard-main {
+  max-width: 1200px;
+  margin: 16px auto 32px;
+  padding: 0 16px 16px;
+}
+
+.dashboard-section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px 18px 18px;
+  margin-bottom: 16px;
+  border: 1px solid #f0f0f0;
+}
+
+.dashboard-section h2 {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+/* Cards for main categories */
+
+.dashboard-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.dash-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #fafafa;
+  text-decoration: none;
+  color: var(--text-main);
+  border: 1px solid #f0f0f0;
+  transition: box-shadow 0.15s ease, transform 0.1s ease, background-color 0.15s ease;
+}
+
+.dash-card:hover {
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.dash-card-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: var(--pink-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.dash-card-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.dash-card p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}

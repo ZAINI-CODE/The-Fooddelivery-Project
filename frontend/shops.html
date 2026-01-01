@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shops – Food Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/shops.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="shops">
+  <div data-include="partials/header.html"></div>
+
+  <!-- Search -->
+  <section class="search-section">
+    <div class="search-inner">
+      <input
+        type="text"
+        id="shop-search"
+        class="search-input"
+        placeholder="Search shops, categories, and products"
+      />
+    </div>
+  </section>
+
+  <main class="page-main with-sidebar with-cart">
+    <!-- LEFT FILTERS -->
+    <aside class="filters">
+      <h3>Filters</h3>
+
+      <div class="filter-group">
+        <p class="filter-title">Offers</p>
+        <label><input type="checkbox" /> Accepts vouchers</label>
+        <label><input type="checkbox" /> Deals</label>
+      </div>
+
+      <div class="filter-group">
+        <p class="filter-title">Shop types</p>
+        <label><input type="checkbox" /> Beauty</label>
+        <label><input type="checkbox" /> Groceries</label>
+        <label><input type="checkbox" /> Fruits &amp; Vegetables</label>
+        <label><input type="checkbox" /> Health &amp; Wellbeing</label>
+        <label><input type="checkbox" /> Supermarket</label>
+      </div>
+    </aside>
+
+    <!-- CENTER CONTENT -->
+    <section class="content">
+      <!-- Hero banner using first shop image -->
+      <section class="section-block hero-banner">
+        <div class="hero-banner-inner">
+          <div
+            id="hero-banner-img"
+            class="hero-banner-placeholder"
+          >
+            Top shops, amazing discounts
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block">
+        <h2>Shop by store</h2>
+        <div id="shops-row" class="card-row"></div>
+      </section>
+
+      <section class="section-block">
+        <h2>Freshly picked for you</h2>
+        <div id="freshly-picked" class="product-row"></div>
+      </section>
+
+      <section class="section-block">
+        <h2>Beauty Boutique</h2>
+        <div id="beauty-boutique" class="product-row"></div>
+      </section>
+
+      <section class="section-block">
+        <h2>Prime Tissues – Reliable choice</h2>
+        <div id="prime-tissues" class="product-row"></div>
+      </section>
+
+      <section class="section-block">
+        <h2>Health essentials</h2>
+        <div id="health-essentials" class="product-row"></div>
+      </section>
+    </section>
+
+    <!-- RIGHT CART -->
+    <aside class="cart-panel">
+      <h3>Your cart</h3>
+      <p class="muted" id="cart-empty-text">Start adding items to your cart</p>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <div class="cart-summary">
+        <div class="cart-line">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">Rs. 0</span>
+        </div>
+        <div class="cart-line strong">
+          <span>Total (incl. fees and tax)</span>
+          <span id="cart-total">Rs. 0</span>
+        </div>
+        <button class="btn btn-disabled" id="checkout-btn" disabled>
+          Go to checkout
+        </button>
+      </div>
+    </aside>
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="assets/js/utils/dom-utils.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/shops.js"></script>
+</body>
+</html>
