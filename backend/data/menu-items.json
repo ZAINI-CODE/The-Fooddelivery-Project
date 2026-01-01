@@ -1,0 +1,1752 @@
+[
+  {
+    "id": 1,
+    "restaurantId": 1,
+    "name": "Zinger Burger",
+    "description": "Crispy fried chicken fillet with fresh vegetables and special sauce",
+    "price": 599,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 2,
+    "restaurantId": 1,
+    "name": "Mighty Zinger",
+    "description": "Double crispy chicken patty with cheese and signature sauce",
+    "price": 799,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 3,
+    "restaurantId": 1,
+    "name": "Hot Wings (6 pcs)",
+    "description": "Spicy hot and crispy chicken wings",
+    "price": 499,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 4,
+    "restaurantId": 1,
+    "name": "Chicken Strips (3 pcs)",
+    "description": "Tender chicken strips with dipping sauce",
+    "price": 399,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/4518653/pexels-photo-4518653.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 5,
+    "restaurantId": 1,
+    "name": "Krunch Burger",
+    "description": "Crunchy chicken patty with lettuce and mayo",
+    "price": 299,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 6,
+    "restaurantId": 1,
+    "name": "Twister",
+    "description": "Chicken wrap with fresh veggies and tangy sauce",
+    "price": 449,
+    "category": "Wraps",
+    "image": "https://images.pexels.com/photos/5710192/pexels-photo-5710192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 7,
+    "restaurantId": 1,
+    "name": "Chicken Nuggets (6 pcs)",
+    "description": "Crispy golden chicken nuggets",
+    "price": 349,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 8,
+    "restaurantId": 1,
+    "name": "Fries (Regular)",
+    "description": "Golden crispy french fries",
+    "price": 149,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 9,
+    "restaurantId": 1,
+    "name": "Coleslaw",
+    "description": "Fresh and creamy coleslaw",
+    "price": 99,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 10,
+    "restaurantId": 1,
+    "name": "Pepsi (500ml)",
+    "description": "Chilled Pepsi",
+    "price": 99,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 11,
+    "restaurantId": 1,
+    "name": "Rice Bowl",
+    "description": "Spicy rice bowl with chicken",
+    "price": 599,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 12,
+    "restaurantId": 1,
+    "name": "Family Feast",
+    "description": "8 pcs chicken, 4 fries, 1.5L drink, 4 dinner rolls",
+    "price": 2999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 21,
+    "restaurantId": 2,
+    "name": "Big Mac",
+    "description": "Iconic double-layer burger with special sauce",
+    "price": 649,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 22,
+    "restaurantId": 2,
+    "name": "McChicken",
+    "description": "Crispy chicken fillet with lettuce and mayo",
+    "price": 499,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 23,
+    "restaurantId": 2,
+    "name": "Quarter Pounder",
+    "description": "Quarter pound beef patty with cheese",
+    "price": 599,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 24,
+    "restaurantId": 2,
+    "name": "McArabia",
+    "description": "Grilled chicken in Arabic bread",
+    "price": 549,
+    "category": "Wraps",
+    "image": "https://images.pexels.com/photos/5710192/pexels-photo-5710192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 25,
+    "restaurantId": 2,
+    "name": "McNuggets (6 pcs)",
+    "description": "Golden chicken nuggets",
+    "price": 399,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 26,
+    "restaurantId": 2,
+    "name": "Fries (Medium)",
+    "description": "Crispy golden fries",
+    "price": 149,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 27,
+    "restaurantId": 2,
+    "name": "McFlurry Oreo",
+    "description": "Soft serve with Oreo pieces",
+    "price": 299,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 28,
+    "restaurantId": 2,
+    "name": "Apple Pie",
+    "description": "Hot apple pie with cinnamon",
+    "price": 199,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/264939/pexels-photo-264939.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 29,
+    "restaurantId": 2,
+    "name": "McCafe Latte",
+    "description": "Smooth espresso latte",
+    "price": 349,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 30,
+    "restaurantId": 2,
+    "name": "Happy Meal",
+    "description": "Burger, fries, drink, and toy",
+    "price": 499,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 31,
+    "restaurantId": 2,
+    "name": "Filet-O-Fish",
+    "description": "Crispy fish fillet with tartar sauce",
+    "price": 449,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 32,
+    "restaurantId": 2,
+    "name": "Coca Cola (Regular)",
+    "description": "Chilled Coca Cola",
+    "price": 99,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 41,
+    "restaurantId": 3,
+    "name": "OPTP Burger",
+    "description": "Signature beef burger with special sauce",
+    "price": 699,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 42,
+    "restaurantId": 3,
+    "name": "Chicken Burger",
+    "description": "Grilled chicken with fresh veggies",
+    "price": 599,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 43,
+    "restaurantId": 3,
+    "name": "Cheese Burger",
+    "description": "Beef patty with melted cheese",
+    "price": 549,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 44,
+    "restaurantId": 3,
+    "name": "Loaded Fries",
+    "description": "Fries topped with cheese and jalapenos",
+    "price": 399,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 45,
+    "restaurantId": 3,
+    "name": "Onion Rings",
+    "description": "Crispy golden onion rings",
+    "price": 299,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/2270287/pexels-photo-2270287.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 46,
+    "restaurantId": 3,
+    "name": "Chicken Wings (8 pcs)",
+    "description": "Spicy buffalo wings",
+    "price": 699,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 47,
+    "restaurantId": 3,
+    "name": "Club Sandwich",
+    "description": "Triple decker chicken sandwich",
+    "price": 649,
+    "category": "Sandwiches",
+    "image": "https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 48,
+    "restaurantId": 3,
+    "name": "Beef Steak Sandwich",
+    "description": "Grilled beef with caramelized onions",
+    "price": 799,
+    "category": "Sandwiches",
+    "image": "https://images.pexels.com/photos/1603901/pexels-photo-1603901.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 49,
+    "restaurantId": 3,
+    "name": "Milkshake (Chocolate)",
+    "description": "Thick chocolate milkshake",
+    "price": 349,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1442267/pexels-photo-1442267.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 50,
+    "restaurantId": 3,
+    "name": "Mocktail",
+    "description": "Fresh fruit mocktail",
+    "price": 299,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 51,
+    "restaurantId": 7,
+    "name": "Chapli Kabab",
+    "description": "Traditional Peshawari chapli kabab",
+    "price": 299,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/8697347/pexels-photo-8697347.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 52,
+    "restaurantId": 7,
+    "name": "Seekh Kabab (2 pcs)",
+    "description": "Spicy minced meat kababs",
+    "price": 349,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 53,
+    "restaurantId": 7,
+    "name": "Chicken Tikka",
+    "description": "Boneless chicken tikka pieces",
+    "price": 599,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 54,
+    "restaurantId": 7,
+    "name": "Beef Bihari Boti",
+    "description": "Tender marinated beef strips",
+    "price": 699,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 55,
+    "restaurantId": 7,
+    "name": "Mutton Karahi (Half)",
+    "description": "Spicy mutton karahi",
+    "price": 1499,
+    "category": "Main Course",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 56,
+    "restaurantId": 7,
+    "name": "Chicken Karahi (Half)",
+    "description": "Traditional chicken karahi",
+    "price": 999,
+    "category": "Main Course",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 57,
+    "restaurantId": 7,
+    "name": "Naan (Plain)",
+    "description": "Freshly baked naan",
+    "price": 40,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 58,
+    "restaurantId": 7,
+    "name": "Garlic Naan",
+    "description": "Naan with garlic and butter",
+    "price": 80,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 59,
+    "restaurantId": 7,
+    "name": "Raita",
+    "description": "Yogurt with cucumber and spices",
+    "price": 99,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 60,
+    "restaurantId": 7,
+    "name": "Green Salad",
+    "description": "Fresh vegetable salad",
+    "price": 149,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 61,
+    "restaurantId": 7,
+    "name": "Doodh Patti",
+    "description": "Traditional milk tea",
+    "price": 80,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 62,
+    "restaurantId": 7,
+    "name": "BBQ Platter",
+    "description": "Mix of kababs, tikka, and boti",
+    "price": 1899,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 71,
+    "restaurantId": 10,
+    "name": "Chicken Pulao",
+    "description": "Aromatic rice with chicken",
+    "price": 299,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 72,
+    "restaurantId": 10,
+    "name": "Beef Pulao",
+    "description": "Flavorful rice with beef",
+    "price": 349,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 73,
+    "restaurantId": 10,
+    "name": "Fried Chicken (2 pcs)",
+    "description": "Crispy fried chicken pieces",
+    "price": 399,
+    "category": "Chicken",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 74,
+    "restaurantId": 10,
+    "name": "Seekh Kabab Roll",
+    "description": "Seekh kabab wrapped in paratha",
+    "price": 249,
+    "category": "Rolls",
+    "image": "https://images.pexels.com/photos/5710192/pexels-photo-5710192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 75,
+    "restaurantId": 10,
+    "name": "Chicken Roll",
+    "description": "Chicken tikka wrapped in paratha",
+    "price": 229,
+    "category": "Rolls",
+    "image": "https://images.pexels.com/photos/5710192/pexels-photo-5710192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 76,
+    "restaurantId": 10,
+    "name": "Daal Mash",
+    "description": "Creamy lentil curry",
+    "price": 199,
+    "category": "Curries",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 77,
+    "restaurantId": 10,
+    "name": "Aloo Keema",
+    "description": "Minced meat with potatoes",
+    "price": 299,
+    "category": "Curries",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 78,
+    "restaurantId": 10,
+    "name": "Paratha (2 pcs)",
+    "description": "Layered flatbread",
+    "price": 60,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 79,
+    "restaurantId": 10,
+    "name": "Lassi (Sweet)",
+    "description": "Traditional yogurt drink",
+    "price": 149,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 80,
+    "restaurantId": 10,
+    "name": "Fresh Lime Juice",
+    "description": "Refreshing lime juice",
+    "price": 129,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 81,
+    "restaurantId": 10,
+    "name": "Family Deal",
+    "description": "4 pulao, 4 fried chicken, 1.5L drink",
+    "price": 1999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 82,
+    "restaurantId": 10,
+    "name": "Rooh Afza",
+    "description": "Traditional rose drink",
+    "price": 99,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 91,
+    "restaurantId": 14,
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with tender chicken",
+    "price": 399,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 92,
+    "restaurantId": 14,
+    "name": "Mutton Biryani",
+    "description": "Rich mutton biryani with spices",
+    "price": 599,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 93,
+    "restaurantId": 14,
+    "name": "Beef Biryani",
+    "description": "Flavorful beef biryani",
+    "price": 449,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 94,
+    "restaurantId": 14,
+    "name": "Prawn Biryani",
+    "description": "Special prawn biryani",
+    "price": 799,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 95,
+    "restaurantId": 14,
+    "name": "Chicken Tikka Biryani",
+    "description": "Biryani with tikka pieces",
+    "price": 499,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 96,
+    "restaurantId": 14,
+    "name": "Raita",
+    "description": "Cool yogurt side dish",
+    "price": 99,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 97,
+    "restaurantId": 14,
+    "name": "Kachumber Salad",
+    "description": "Fresh vegetable salad",
+    "price": 129,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 98,
+    "restaurantId": 14,
+    "name": "Chicken 65",
+    "description": "Spicy fried chicken appetizer",
+    "price": 499,
+    "category": "Appetizers",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 99,
+    "restaurantId": 14,
+    "name": "Shami Kabab (2 pcs)",
+    "description": "Soft minced meat patties",
+    "price": 249,
+    "category": "Appetizers",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 100,
+    "restaurantId": 14,
+    "name": "Gulab Jamun (2 pcs)",
+    "description": "Sweet milk balls in syrup",
+    "price": 149,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 101,
+    "restaurantId": 14,
+    "name": "Kheer",
+    "description": "Traditional rice pudding",
+    "price": 179,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 102,
+    "restaurantId": 14,
+    "name": "Mint Margarita",
+    "description": "Refreshing mint drink",
+    "price": 199,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 111,
+    "restaurantId": 4,
+    "name": "Thickburger",
+    "description": "Signature charbroiled beef burger",
+    "price": 799,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 112,
+    "restaurantId": 4,
+    "name": "Famous Star",
+    "description": "Charbroiled beef with special sauce",
+    "price": 699,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 113,
+    "restaurantId": 4,
+    "name": "Spicy Chicken Sandwich",
+    "description": "Breaded spicy chicken fillet",
+    "price": 599,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 114,
+    "restaurantId": 4,
+    "name": "Super Star",
+    "description": "Double beef patty with cheese",
+    "price": 899,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 115,
+    "restaurantId": 4,
+    "name": "Chicken Tenders (5 pcs)",
+    "description": "Hand-breaded chicken tenders",
+    "price": 499,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/4518653/pexels-photo-4518653.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 116,
+    "restaurantId": 4,
+    "name": "Criss Cut Fries",
+    "description": "Crispy lattice-cut fries",
+    "price": 199,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 117,
+    "restaurantId": 4,
+    "name": "Onion Rings",
+    "description": "Beer-battered onion rings",
+    "price": 249,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/2270287/pexels-photo-2270287.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 118,
+    "restaurantId": 4,
+    "name": "Chocolate Shake",
+    "description": "Hand-scooped ice cream shake",
+    "price": 399,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1442267/pexels-photo-1442267.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 119,
+    "restaurantId": 4,
+    "name": "Strawberry Shake",
+    "description": "Real strawberry shake",
+    "price": 399,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1442267/pexels-photo-1442267.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 120,
+    "restaurantId": 4,
+    "name": "BBQ Chicken Sandwich",
+    "description": "Grilled chicken with BBQ sauce",
+    "price": 649,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 121,
+    "restaurantId": 4,
+    "name": "Iced Coffee",
+    "description": "Cold brew coffee",
+    "price": 299,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 122,
+    "restaurantId": 4,
+    "name": "Combo Meal",
+    "description": "Burger, fries, and drink",
+    "price": 999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 131,
+    "restaurantId": 5,
+    "name": "Lab Burger",
+    "description": "Premium gourmet beef burger with special sauce",
+    "price": 899,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 132,
+    "restaurantId": 5,
+    "name": "Chicken Lab Burger",
+    "description": "Gourmet chicken burger",
+    "price": 799,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 133,
+    "restaurantId": 5,
+    "name": "Double Decker",
+    "description": "Double beef patties with cheese",
+    "price": 1099,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 134,
+    "restaurantId": 5,
+    "name": "Mushroom Swiss Burger",
+    "description": "Beef with sauteed mushrooms and swiss cheese",
+    "price": 999,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 135,
+    "restaurantId": 5,
+    "name": "Spicy Jalapeño Burger",
+    "description": "Beef burger with jalapeños and spicy mayo",
+    "price": 949,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 136,
+    "restaurantId": 5,
+    "name": "Loaded Fries",
+    "description": "Fries with cheese, bacon bits, and sauces",
+    "price": 449,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 137,
+    "restaurantId": 5,
+    "name": "Chicken Wings (8 pcs)",
+    "description": "Buffalo or BBQ wings",
+    "price": 699,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 138,
+    "restaurantId": 5,
+    "name": "Mozzarella Sticks (6 pcs)",
+    "description": "Fried mozzarella with marinara sauce",
+    "price": 499,
+    "category": "Snacks",
+    "image": "https://images.pexels.com/photos/4518653/pexels-photo-4518653.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 139,
+    "restaurantId": 5,
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with molten center",
+    "price": 449,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 140,
+    "restaurantId": 5,
+    "name": "Oreo Shake",
+    "description": "Thick shake with Oreo pieces",
+    "price": 449,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1442267/pexels-photo-1442267.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 141,
+    "restaurantId": 5,
+    "name": "Fresh Lemonade",
+    "description": "Freshly squeezed lemonade",
+    "price": 249,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 142,
+    "restaurantId": 5,
+    "name": "Couple Deal",
+    "description": "2 burgers, 2 fries, 2 drinks",
+    "price": 1799,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 151,
+    "restaurantId": 6,
+    "name": "Howdy Special Steak",
+    "description": "Grilled beef steak with special seasoning",
+    "price": 1499,
+    "category": "Steaks",
+    "image": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 152,
+    "restaurantId": 6,
+    "name": "T-Bone Steak",
+    "description": "Premium T-bone steak",
+    "price": 1899,
+    "category": "Steaks",
+    "image": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 153,
+    "restaurantId": 6,
+    "name": "Chicken Steak",
+    "description": "Grilled chicken breast with mushroom sauce",
+    "price": 999,
+    "category": "Steaks",
+    "image": "https://images.pexels.com/photos/4106488/pexels-photo-4106488.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 154,
+    "restaurantId": 6,
+    "name": "Beef Burger",
+    "description": "Thick beef patty with caramelized onions",
+    "price": 799,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 155,
+    "restaurantId": 6,
+    "name": "Chicken Burger",
+    "description": "Grilled chicken with special sauce",
+    "price": 699,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 156,
+    "restaurantId": 6,
+    "name": "BBQ Ribs (Half Rack)",
+    "description": "Tender beef ribs with BBQ glaze",
+    "price": 1299,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 157,
+    "restaurantId": 6,
+    "name": "Grilled Prawns",
+    "description": "Jumbo prawns with garlic butter",
+    "price": 1599,
+    "category": "Seafood",
+    "image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 158,
+    "restaurantId": 6,
+    "name": "Garlic Bread",
+    "description": "Toasted bread with garlic butter",
+    "price": 299,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 159,
+    "restaurantId": 6,
+    "name": "Mashed Potatoes",
+    "description": "Creamy mashed potatoes",
+    "price": 249,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 160,
+    "restaurantId": 6,
+    "name": "Brownie with Ice Cream",
+    "description": "Warm brownie with vanilla ice cream",
+    "price": 499,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 161,
+    "restaurantId": 6,
+    "name": "Fresh Juice",
+    "description": "Orange or apple juice",
+    "price": 299,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 162,
+    "restaurantId": 6,
+    "name": "Steak Platter",
+    "description": "Beef steak with sides and drink",
+    "price": 1999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 171,
+    "restaurantId": 8,
+    "name": "Mutton Karahi (Full)",
+    "description": "Traditional full mutton karahi",
+    "price": 2799,
+    "category": "Karahi",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 172,
+    "restaurantId": 8,
+    "name": "Chicken Karahi (Full)",
+    "description": "Full chicken karahi with spices",
+    "price": 1899,
+    "category": "Karahi",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 173,
+    "restaurantId": 8,
+    "name": "Chicken Tikka",
+    "description": "Boneless chicken tikka",
+    "price": 699,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 174,
+    "restaurantId": 8,
+    "name": "Mutton Tikka",
+    "description": "Tender mutton tikka pieces",
+    "price": 999,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 175,
+    "restaurantId": 8,
+    "name": "Seekh Kabab (4 pcs)",
+    "description": "Spicy minced meat kababs",
+    "price": 599,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 176,
+    "restaurantId": 8,
+    "name": "Chicken Biryani",
+    "description": "Karachi style chicken biryani",
+    "price": 499,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 177,
+    "restaurantId": 8,
+    "name": "Tandoori Naan",
+    "description": "Fresh from tandoor",
+    "price": 50,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 178,
+    "restaurantId": 8,
+    "name": "Roghni Naan",
+    "description": "Buttery roghni naan",
+    "price": 90,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 179,
+    "restaurantId": 8,
+    "name": "Mixed Raita",
+    "description": "Yogurt with vegetables",
+    "price": 149,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 180,
+    "restaurantId": 8,
+    "name": "Kheer (Rice Pudding)",
+    "description": "Traditional sweet rice pudding",
+    "price": 199,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 181,
+    "restaurantId": 8,
+    "name": "Kashmiri Chai",
+    "description": "Pink tea with nuts",
+    "price": 149,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 182,
+    "restaurantId": 8,
+    "name": "Family BBQ Deal",
+    "description": "Mixed BBQ platter for 4-5 people",
+    "price": 3499,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 191,
+    "restaurantId": 9,
+    "name": "Monal Special Karahi",
+    "description": "Signature karahi with special spices",
+    "price": 1999,
+    "category": "Main Course",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 192,
+    "restaurantId": 9,
+    "name": "Chicken Tikka (Full)",
+    "description": "Full portion of boneless tikka",
+    "price": 1299,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 193,
+    "restaurantId": 9,
+    "name": "Mutton Ribs",
+    "description": "Grilled mutton ribs",
+    "price": 1599,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 194,
+    "restaurantId": 9,
+    "name": "Fish Tikka",
+    "description": "Marinated fish tikka",
+    "price": 1399,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 195,
+    "restaurantId": 9,
+    "name": "Seekh Kabab (6 pcs)",
+    "description": "Premium seekh kababs",
+    "price": 899,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 196,
+    "restaurantId": 9,
+    "name": "Chicken Biryani",
+    "description": "Aromatic Pakistani biryani",
+    "price": 699,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 197,
+    "restaurantId": 9,
+    "name": "Mutton Pulao",
+    "description": "Traditional mutton pulao",
+    "price": 899,
+    "category": "Rice",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 198,
+    "restaurantId": 9,
+    "name": "Tandoori Paratha",
+    "description": "Layered tandoori paratha",
+    "price": 80,
+    "category": "Breads",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 199,
+    "restaurantId": 9,
+    "name": "Qehwa (Green Tea)",
+    "description": "Traditional green tea",
+    "price": 199,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 200,
+    "restaurantId": 9,
+    "name": "Fresh Lime Soda",
+    "description": "Refreshing lime soda",
+    "price": 249,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 201,
+    "restaurantId": 9,
+    "name": "Firni",
+    "description": "Traditional milk dessert",
+    "price": 249,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 202,
+    "restaurantId": 9,
+    "name": "BBQ Feast",
+    "description": "Complete BBQ meal for 2",
+    "price": 2999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 211,
+    "restaurantId": 11,
+    "name": "Fajita Pizza (Large)",
+    "description": "Chicken fajita with peppers and onions",
+    "price": 1299,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 212,
+    "restaurantId": 11,
+    "name": "Tikka Pizza (Large)",
+    "description": "Chicken tikka with special sauce",
+    "price": 1399,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 213,
+    "restaurantId": 11,
+    "name": "Malai Boti Pizza (Large)",
+    "description": "Creamy malai boti pizza",
+    "price": 1499,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 214,
+    "restaurantId": 11,
+    "name": "Cheese Lovers (Large)",
+    "description": "Extra cheese with multiple cheese types",
+    "price": 1199,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 215,
+    "restaurantId": 11,
+    "name": "Supreme Pizza (Large)",
+    "description": "Loaded with toppings",
+    "price": 1599,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 216,
+    "restaurantId": 11,
+    "name": "Garlic Bread Sticks",
+    "description": "Cheesy garlic bread sticks",
+    "price": 399,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 217,
+    "restaurantId": 11,
+    "name": "Chicken Wings (10 pcs)",
+    "description": "Spicy buffalo wings",
+    "price": 799,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 218,
+    "restaurantId": 11,
+    "name": "Pasta (Creamy)",
+    "description": "Chicken pasta in white sauce",
+    "price": 699,
+    "category": "Pasta",
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 219,
+    "restaurantId": 11,
+    "name": "Brownie Fudge",
+    "description": "Chocolate brownie with fudge",
+    "price": 399,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 220,
+    "restaurantId": 11,
+    "name": "Pepsi (1.5L)",
+    "description": "Large Pepsi bottle",
+    "price": 199,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 221,
+    "restaurantId": 11,
+    "name": "Family Deal",
+    "description": "2 large pizzas, garlic bread, 1.5L drink",
+    "price": 2599,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 231,
+    "restaurantId": 12,
+    "name": "Chicken Tikka Pizza (Large)",
+    "description": "Tikka chicken with special sauce",
+    "price": 1499,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 232,
+    "restaurantId": 12,
+    "name": "BBQ Pizza (Large)",
+    "description": "BBQ chicken with onions",
+    "price": 1399,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 233,
+    "restaurantId": 12,
+    "name": "Veggie Supreme (Large)",
+    "description": "Loaded with fresh vegetables",
+    "price": 1199,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 234,
+    "restaurantId": 12,
+    "name": "Pepperoni Pizza (Large)",
+    "description": "Classic pepperoni pizza",
+    "price": 1299,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 235,
+    "restaurantId": 12,
+    "name": "Broadway Special (Large)",
+    "description": "House special with premium toppings",
+    "price": 1699,
+    "category": "Pizza",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 236,
+    "restaurantId": 12,
+    "name": "Cheesy Fries",
+    "description": "Fries loaded with cheese sauce",
+    "price": 449,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 237,
+    "restaurantId": 12,
+    "name": "Onion Rings",
+    "description": "Crispy battered onion rings",
+    "price": 349,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/2270287/pexels-photo-2270287.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 238,
+    "restaurantId": 12,
+    "name": "Chicken Nuggets (8 pcs)",
+    "description": "Golden crispy nuggets",
+    "price": 499,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 239,
+    "restaurantId": 12,
+    "name": "Chocolate Lava Cake",
+    "description": "Warm cake with chocolate center",
+    "price": 499,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 240,
+    "restaurantId": 12,
+    "name": "Coke (1.5L)",
+    "description": "Large Coca Cola bottle",
+    "price": 199,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 241,
+    "restaurantId": 12,
+    "name": "Mega Deal",
+    "description": "2 large pizzas, sides, 1.5L drink",
+    "price": 2999,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 251,
+    "restaurantId": 13,
+    "name": "Peri Peri Chicken (Half)",
+    "description": "Spicy peri peri grilled chicken",
+    "price": 1099,
+    "category": "Chicken",
+    "image": "https://images.pexels.com/photos/4106488/pexels-photo-4106488.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 252,
+    "restaurantId": 13,
+    "name": "Peri Peri Chicken (Full)",
+    "description": "Full grilled peri peri chicken",
+    "price": 1999,
+    "category": "Chicken",
+    "image": "https://images.pexels.com/photos/4106488/pexels-photo-4106488.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 253,
+    "restaurantId": 13,
+    "name": "Chicken Wings (10 pcs)",
+    "description": "Peri peri wings",
+    "price": 899,
+    "category": "Chicken",
+    "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 254,
+    "restaurantId": 13,
+    "name": "Chicken Burger",
+    "description": "Peri peri chicken burger",
+    "price": 699,
+    "category": "Burgers",
+    "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 255,
+    "restaurantId": 13,
+    "name": "Chicken Wrap",
+    "description": "Peri peri chicken in wrap",
+    "price": 649,
+    "category": "Wraps",
+    "image": "https://images.pexels.com/photos/5710192/pexels-photo-5710192.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 256,
+    "restaurantId": 13,
+    "name": "Peri Peri Fries",
+    "description": "Fries with peri peri seasoning",
+    "price": 299,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 257,
+    "restaurantId": 13,
+    "name": "Coleslaw",
+    "description": "Creamy coleslaw",
+    "price": 149,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 258,
+    "restaurantId": 13,
+    "name": "Corn on the Cob",
+    "description": "Grilled corn with butter",
+    "price": 249,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 259,
+    "restaurantId": 13,
+    "name": "Brownie",
+    "description": "Chocolate brownie",
+    "price": 349,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 260,
+    "restaurantId": 13,
+    "name": "Bottomless Drink",
+    "description": "Unlimited soft drink refills",
+    "price": 199,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 261,
+    "restaurantId": 13,
+    "name": "Family Platter",
+    "description": "Full chicken, sides, and drinks for 4",
+    "price": 2799,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/4106488/pexels-photo-4106488.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 271,
+    "restaurantId": 15,
+    "name": "Student Biryani (Regular)",
+    "description": "Famous student biryani",
+    "price": 349,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 272,
+    "restaurantId": 15,
+    "name": "Special Biryani",
+    "description": "Biryani with extra meat",
+    "price": 499,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 273,
+    "restaurantId": 15,
+    "name": "Boneless Handi Biryani",
+    "description": "Boneless chicken in special biryani",
+    "price": 599,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 274,
+    "restaurantId": 15,
+    "name": "Mutton Biryani",
+    "description": "Tender mutton biryani",
+    "price": 549,
+    "category": "Biryani",
+    "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 275,
+    "restaurantId": 15,
+    "name": "Chicken Tikka",
+    "description": "Grilled chicken tikka",
+    "price": 499,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 276,
+    "restaurantId": 15,
+    "name": "Seekh Kabab (3 pcs)",
+    "description": "Juicy seekh kababs",
+    "price": 399,
+    "category": "BBQ",
+    "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 277,
+    "restaurantId": 15,
+    "name": "Chicken Korma",
+    "description": "Creamy chicken korma",
+    "price": 449,
+    "category": "Curries",
+    "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 278,
+    "restaurantId": 15,
+    "name": "Raita",
+    "description": "Fresh yogurt raita",
+    "price": 79,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 279,
+    "restaurantId": 15,
+    "name": "Salad",
+    "description": "Fresh garden salad",
+    "price": 99,
+    "category": "Sides",
+    "image": "https://images.pexels.com/photos/5938/salad-healthy-diet-spinach.jpg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 280,
+    "restaurantId": 15,
+    "name": "Kheer",
+    "description": "Traditional rice kheer",
+    "price": 149,
+    "category": "Desserts",
+    "image": "https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": false
+  },
+  {
+    "id": 281,
+    "restaurantId": 15,
+    "name": "Doodh Soda",
+    "description": "Traditional milk soda",
+    "price": 129,
+    "category": "Drinks",
+    "image": "https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  },
+  {
+    "id": 282,
+    "restaurantId": 15,
+    "name": "Family Pack",
+    "description": "4 biryani, raita, salad, drinks",
+    "price": 1799,
+    "category": "Deals",
+    "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "popular": true
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 101,
+    "shopId": 1,
+    "name": "BrightFarms Green Chili (Sindh) 250g",
+    "price": 30.6,
+    "oldPrice": 36.0,
+    "discount": "15% off",
+    "category": "Freshly Picked For You",
+    "image": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg",
+    "available": true
+  },
+  {
+    "id": 102,
+    "shopId": 1,
+    "name": "BrightFarms Cabbage 1 Pc",
+    "price": 118.0,
+    "oldPrice": 140.0,
+    "discount": "15% off",
+    "category": "Freshly Picked For You",
+    "image": "https://images.pexels.com/photos/1437335/pexels-photo-1437335.jpeg",
+    "available": true
+  },
+  {
+    "id": 103,
+    "shopId": 1,
+    "name": "Chicken Breast Boneless 500g",
+    "price": 469.0,
+    "oldPrice": 520.0,
+    "discount": "10% off",
+    "category": "Freshly Picked For You",
+    "image": "https://images.pexels.com/photos/4106483/pexels-photo-4106483.jpeg",
+    "available": true
+  },
+  {
+    "id": 104,
+    "shopId": 1,
+    "name": "Frozen Chicken Drumsticks 1kg",
+    "price": 749.0,
+    "oldPrice": 830.0,
+    "discount": "10% off",
+    "category": "Freshly Picked For You",
+    "image": "https://images.pexels.com/photos/4939267/pexels-photo-4939267.jpeg",
+    "available": true
+  },
+  {
+    "id": 201,
+    "shopId": 3,
+    "name": "Garnier Skin Active Bright Complete Cream",
+    "price": 1011.75,
+    "oldPrice": 1349.0,
+    "discount": "25% off",
+    "category": "Beauty Boutique",
+    "image": "https://images.pexels.com/photos/3738361/pexels-photo-3738361.jpeg",
+    "available": true
+  },
+  {
+    "id": 202,
+    "shopId": 3,
+    "name": "L'Oreal Total Repair Shampoo 175ml",
+    "price": 416.0,
+    "oldPrice": 520.0,
+    "discount": "20% off",
+    "category": "Beauty Boutique",
+    "image": "https://images.pexels.com/photos/3738365/pexels-photo-3738365.jpeg",
+    "available": true
+  },
+  {
+    "id": 301,
+    "shopId": 4,
+    "name": "Prime Hand Towel Indigo (75 Sheets)",
+    "price": 225.0,
+    "oldPrice": 250.0,
+    "discount": "10% off",
+    "category": "Prime Tissues",
+    "image": "https://images.pexels.com/photos/3735210/pexels-photo-3735210.jpeg",
+    "available": true
+  },
+  {
+    "id": 302,
+    "shopId": 4,
+    "name": "Prime Pop‑Up (140 Sheets)",
+    "price": 126.0,
+    "oldPrice": 140.0,
+    "discount": "10% off",
+    "category": "Prime Tissues",
+    "image": "https://images.pexels.com/photos/3735211/pexels-photo-3735211.jpeg",
+    "available": true
+  },
+  {
+    "id": 401,
+    "shopId": 2,
+    "name": "Paracetamol 500mg Tablets",
+    "price": 120.0,
+    "oldPrice": 130.0,
+    "discount": "8% off",
+    "category": "Health Essentials",
+    "image": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg",
+    "available": true
+  },
+  {
+    "id": 402,
+    "shopId": 2,
+    "name": "Vitamin C Tablets",
+    "price": 350.0,
+    "oldPrice": 400.0,
+    "discount": "12% off",
+    "category": "Health Essentials",
+    "image": "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg",
+    "available": true
+  }
+]

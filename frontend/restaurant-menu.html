@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Restaurant Menu – Food Delivery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/restaurant-menu.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="restaurant-menu">
+  <div data-include="partials/header.html"></div>
+
+  <!-- Restaurant Header -->
+  <section class="restaurant-header">
+    <div id="restaurant-info" class="restaurant-info-container"></div>
+  </section>
+
+  <!-- Menu Section -->
+  <main class="page-main">
+    <section class="menu-section">
+      <div class="menu-filters">
+        <button class="filter-btn active" data-category="all">All Items</button>
+        <div id="category-filters"></div>
+      </div>
+      
+      <div id="menu-items" class="menu-items-grid"></div>
+    </section>
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+
+  <!-- Toast for notifications -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Cart badge (floating) -->
+  <a href="cart.html" id="cart-badge" class="cart-badge" style="display: none;">
+    <span class="cart-icon">🛒</span>
+    <span id="cart-count" class="cart-count">0</span>
+  </a>
+
+  <script src="assets/js/utils/dom-utils.js"></script>
+  <script src="assets/js/utils/cart-utils.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/restaurant-menu.js"></script>
+</body>
+</html>
