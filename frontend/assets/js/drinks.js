@@ -2,6 +2,7 @@
 
 const drinksRowEl = document.getElementById('drinks-row');
 const drinksSearchEl = document.getElementById('drinks-search');
+const drinksSearchBtnEl = document.getElementById('drinks-search-btn');
 const categoryRadiosD = document.querySelectorAll('input[name="drink-category"]');
 
 const cartItemsElD = document.getElementById('cart-items');
@@ -114,6 +115,7 @@ function renderDrinksCart() {
     checkoutBtnD.disabled = false;
     checkoutBtnD.classList.remove('btn-disabled');
     checkoutBtnD.classList.add('btn-primary');
+    checkoutBtnD.onclick = () => window.location.href = 'checkout.html';
   }
 
   let subtotal = 0;
@@ -176,6 +178,16 @@ function applyDrinksFilters() {
 
 // Events
 drinksSearchEl.addEventListener('input', applyDrinksFilters);
+drinksSearchEl.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    applyDrinksFilters();
+  }
+});
+
+if (drinksSearchBtnEl) {
+  drinksSearchBtnEl.addEventListener('click', applyDrinksFilters);
+}
+
 categoryRadiosD.forEach((radio) => {
   radio.addEventListener('change', applyDrinksFilters);
 });

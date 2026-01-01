@@ -7,6 +7,8 @@ const tissuesRowEl = document.getElementById('prime-tissues');
 const healthRowEl = document.getElementById('health-essentials');
 
 const heroBannerImg = document.getElementById('hero-banner-img');
+const shopSearchEl = document.getElementById('shop-search');
+const shopSearchBtnEl = document.getElementById('shop-search-btn');
 
 const cartItemsEl = document.getElementById('cart-items');
 const cartEmptyTextEl = document.getElementById('cart-empty-text');
@@ -18,6 +20,8 @@ const toastEl = document.getElementById('toast');
 
 let cart = [];
 let toastTimeoutId = null;
+let allShops = [];
+let allProducts = [];
 
 // ------- Toast helper -------
 
@@ -135,6 +139,7 @@ function renderCart() {
     checkoutBtn.disabled = false;
     checkoutBtn.classList.remove('btn-disabled');
     checkoutBtn.classList.add('btn-primary');
+    checkoutBtn.onclick = () => window.location.href = 'checkout.html';
   }
 
   let subtotal = 0;
@@ -165,44 +170,85 @@ function renderCart() {
 
 // ------- Initial load -------
 
+let allShops = [];
+let allProducts = [];
+
 async function loadShopsAndProducts() {
   try {
-    const shops = await window.api.getShops();
-    const products = await window.api.getAllProducts();
-
-    // Hero banner image from first shop
-    if (shops.length > 0 && heroBannerImg) {
-      heroBannerImg.style.backgroundImage = `url(${shops[0].heroImage})`;
-      heroBannerImg.style.backgroundSize = 'cover';
-      heroBannerImg.style.backgroundPosition = 'center';
-      heroBannerImg.textContent = '';
-      heroBannerImg.style.height = '220px';
-    }
-
-    // Shops row
-    shopsRowEl.innerHTML = '';
-    shops.forEach((shop) => {
-      shopsRowEl.appendChild(createShopCard(shop));
-    });
-
-    // Group products by category
-    const fresh = products.filter((p) => p.category === 'Freshly Picked For You');
-    const beauty = products.filter((p) => p.category === 'Beauty Boutique');
-    const tissues = products.filter((p) => p.category === 'Prime Tissues');
-    const health = products.filter((p) => p.category === 'Health Essentials');
-
-    freshRowEl.innerHTML = '';
-    beautyRowEl.innerHTML = '';
-    tissuesRowEl.innerHTML = '';
-    healthRowEl.innerHTML = '';
-
-    fresh.forEach((p) => freshRowEl.appendChild(createProductCard(p)));
-    beauty.forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
-    tissues.forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
-    health.forEach((p) => healthRowEl.appendChild(createProductCard(p)));
+    allShops = await window.api.getShops();
+    allProducts = await window.api.getAllProducts();
+    applyShopsFilter();
   } catch (err) {
     console.error('Error loading shops/products:', err);
   }
+}
+
+function applyShopsFilter() {
+  const searchTerm = shopSearchEl ? shopSearchEl.value.trim().toLowerCase() : '';
+  
+  let filteredShops = allShops;
+  let filteredProducts = allProducts;
+  
+  if (searchTerm) {
+    filteredShops = allShops.filter(shop => 
+      shop.name.toLowerCase().includes(searchTerm) ||
+      shop.type.toLowerCase().includes(searchTerm)
+    );
+    
+    filteredProducts = allProducts.filter(product =>
+      product.name.toLowerCase().includes(searchTerm) ||
+      product.category.toLowerCase().includes(searchTerm)
+    );
+  }
+  
+  renderShopsAndProducts(filteredShops, filteredProducts);
+}
+
+function renderShopsAndProducts(shops, products) {
+  // Hero banner image from first shop
+  if (shops.length > 0 && heroBannerImg) {
+    heroBannerImg.style.backgroundImage = `url(${shops[0].heroImage})`;
+    heroBannerImg.style.backgroundSize = 'cover';
+    heroBannerImg.style.backgroundPosition = 'center';
+    heroBannerImg.textContent = '';
+    heroBannerImg.style.height = '220px';
+  }
+
+  // Shops row
+  shopsRowEl.innerHTML = '';
+  shops.forEach((shop) => {
+    shopsRowEl.appendChild(createShopCard(shop));
+  });
+
+  // Group products by category
+  const fresh = products.filter((p) => p.category === 'Freshly Picked For You');
+  const beauty = products.filter((p) => p.category === 'Beauty Boutique');
+  const tissues = products.filter((p) => p.category === 'Prime Tissues');
+  const health = products.filter((p) => p.category === 'Health Essentials');
+
+  freshRowEl.innerHTML = '';
+  beautyRowEl.innerHTML = '';
+  tissuesRowEl.innerHTML = '';
+  healthRowEl.innerHTML = '';
+
+  fresh.forEach((p) => freshRowEl.appendChild(createProductCard(p)));
+  beauty.forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
+  tissues.forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
+  health.forEach((p) => healthRowEl.appendChild(createProductCard(p)));
+}
+
+// Search event listeners
+if (shopSearchEl) {
+  shopSearchEl.addEventListener('input', applyShopsFilter);
+  shopSearchEl.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      applyShopsFilter();
+    }
+  });
+}
+
+if (shopSearchBtnEl) {
+  shopSearchBtnEl.addEventListener('click', applyShopsFilter);
 }
 
 document.addEventListener('DOMContentLoaded', () => {

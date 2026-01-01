@@ -30,12 +30,11 @@ body {
 }
 
 .card.restaurant-card {
-  min-width: 260px;
-  max-width: 280px;
+  width: 100%;
 }
 
 .card.restaurant-card .card-image {
-  height: 130px;
+  height: 160px;
 }
 
 .card.restaurant-card .card-body {

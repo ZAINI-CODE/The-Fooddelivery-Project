@@ -4,7 +4,7 @@
     "name": "KFC",
     "type": "Restaurant",
     "description": "Famous for fried chicken and zinger burgers.",
-    "logo": "https://images.pexels.com/photos/33162/food-restaurant-lunch-chicken.jpg",
+    "logo": "https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg",
     "city": "Multiple",
     "rating": 4.4
   },
@@ -19,33 +19,51 @@
   },
   {
     "id": 3,
-    "name": "OPTP",
+    "name": "Cheezious",
     "type": "Restaurant",
-    "description": "Pakistani brand known for fries and burgers.",
-    "logo": "https://images.pexels.com/photos/2271099/pexels-photo-2271099.jpeg",
-    "city": "Karachi, Lahore, Islamabad",
+    "description": "Popular pizza chain with loaded cheese pizzas.",
+    "logo": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "city": "Multiple",
     "rating": 4.4
   },
   {
     "id": 4,
+    "name": "Broadway Pizza",
+    "type": "Restaurant",
+    "description": "Gourmet pizzas with premium toppings.",
+    "logo": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg",
+    "city": "Multiple",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "name": "OPTP",
+    "type": "Restaurant",
+    "description": "Pakistani brand known for fries and burgers.",
+    "logo": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
+    "city": "Karachi, Lahore, Islamabad",
+    "rating": 4.4
+  },
+  {
+    "id": 6,
     "name": "Burger Lab",
     "type": "Restaurant",
     "description": "Gourmet smash burgers with creative toppings.",
-    "logo": "https://images.pexels.com/photos/4109999/pexels-photo-4109999.jpeg",
+    "logo": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
     "city": "Karachi, Lahore, Islamabad",
     "rating": 4.6
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Howdy",
     "type": "Restaurant",
     "description": "Steaks and burgers with Western cowboy theme.",
-    "logo": "https://images.pexels.com/photos/6602822/pexels-photo-6602822.jpeg",
+    "logo": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg",
     "city": "Lahore, Islamabad",
     "rating": 4.5
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Savour Foods",
     "type": "Restaurant",
     "description": "Pakistani pulao, broast and traditional dishes.",
@@ -54,7 +72,7 @@
     "rating": 4.7
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Karachi Biryani House",
     "type": "Restaurant",
     "description": "Spicy biryani and Karachi style rice dishes.",
@@ -63,34 +81,43 @@
     "rating": 4.5
   },
   {
-    "id": 8,
-    "name": "Nestle",
-    "type": "Drinks & Grocery",
-    "description": "Juices, water and dairy products.",
-    "logo": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg",
-    "city": "Pakistan",
-    "rating": 4.4
-  },
-  {
-    "id": 9,
-    "name": "Coca Cola",
-    "type": "Drinks",
-    "description": "Soft drinks and juices.",
-    "logo": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg",
-    "city": "Pakistan",
-    "rating": 4.6
-  },
-  {
     "id": 10,
     "name": "Pepsi",
     "type": "Drinks",
-    "description": "Soft drinks and beverages.",
-    "logo": "https://images.pexels.com/photos/814881/pexels-photo-814881.jpeg",
+    "description": "Refreshing soft drinks and beverages.",
+    "logo": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg",
     "city": "Pakistan",
     "rating": 4.5
   },
   {
     "id": 11,
+    "name": "Coca Cola",
+    "type": "Drinks",
+    "description": "Classic cola drinks and refreshments.",
+    "logo": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg",
+    "city": "Pakistan",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Gourmet",
+    "type": "Drinks",
+    "description": "Premium Pakistani soft drink brand.",
+    "logo": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg",
+    "city": "Pakistan",
+    "rating": 4.3
+  },
+  {
+    "id": 13,
+    "name": "Nestle",
+    "type": "Drinks & Water",
+    "description": "Pure water, juices and dairy products.",
+    "logo": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg",
+    "city": "Pakistan",
+    "rating": 4.4
+  },
+  {
+    "id": 14,
     "name": "Red Bull",
     "type": "Energy Drinks",
     "description": "Popular energy drink brand.",
@@ -99,7 +126,7 @@
     "rating": 4.4
   },
   {
-    "id": 12,
+    "id": 15,
     "name": "Rooh Afza",
     "type": "Pakistani Drinks",
     "description": "Traditional sharbat brand.",
@@ -108,7 +135,7 @@
     "rating": 4.7
   },
   {
-    "id": 13,
+    "id": 16,
     "name": "Qarshi Jam-e-Shirin",
     "type": "Pakistani Drinks",
     "description": "Popular herbal drink brand.",

@@ -42,5 +42,71 @@
     "tags": ["Supermarket", "Home"],
     "heroImage": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg",
     "thumbnail": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Fresh Mart",
+    "type": "Groceries",
+    "deliveryTime": "20-35 min",
+    "deliveryFee": 149,
+    "rating": 4.5,
+    "tags": ["Groceries", "Fresh Produce"],
+    "heroImage": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Green Valley Organics",
+    "type": "Fruits & Vegetables",
+    "deliveryTime": "15-30 min",
+    "deliveryFee": 139,
+    "rating": 4.8,
+    "tags": ["Fruits & Vegetables", "Organic"],
+    "heroImage": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "HealthPlus Pharmacy",
+    "type": "Pharmacy",
+    "deliveryTime": "10-20 min",
+    "deliveryFee": 89,
+    "rating": 4.6,
+    "tags": ["Health & Wellbeing", "Medicines"],
+    "heroImage": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Glow Beauty",
+    "type": "Beauty",
+    "deliveryTime": "15-30 min",
+    "deliveryFee": 169,
+    "rating": 4.3,
+    "tags": ["Beauty", "Skincare"],
+    "heroImage": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "MegaMart Superstore",
+    "type": "Supermarket",
+    "deliveryTime": "30-45 min",
+    "deliveryFee": 179,
+    "rating": 4.4,
+    "tags": ["Supermarket", "Everything"],
+    "heroImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Quick Stop Convenience",
+    "type": "Groceries",
+    "deliveryTime": "10-20 min",
+    "deliveryFee": 99,
+    "rating": 4.2,
+    "tags": ["Groceries", "Quick Delivery"],
+    "heroImage": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg"
   }
 ]

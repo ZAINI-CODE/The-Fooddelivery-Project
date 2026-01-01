@@ -3,6 +3,7 @@
 const featuredBrandsEl = document.getElementById('featured-brands');
 const allBrandsEl = document.getElementById('all-brands');
 const brandsSearchEl = document.getElementById('brands-search');
+const brandsSearchBtnEl = document.getElementById('brands-search-btn');
 const brandTypeFilterEl = document.getElementById('brand-type-filter');
 const toastElBr = document.getElementById('toast');
 
@@ -101,8 +102,8 @@ async function loadBrands() {
 }
 
 function applyBrandFilters() {
-  const searchTerm = brandsSearchEl.value.trim().toLowerCase();
-  const typeVal = brandTypeFilterEl.value;
+  const searchTerm = brandsSearchEl ? brandsSearchEl.value.trim().toLowerCase() : '';
+  const typeVal = brandTypeFilterEl ? brandTypeFilterEl.value : '';
 
   let filtered = brands;
 
@@ -122,7 +123,21 @@ function applyBrandFilters() {
 }
 
 // Events
-brandsSearchEl.addEventListener('input', applyBrandFilters);
-brandTypeFilterEl.addEventListener('change', applyBrandFilters);
+if (brandsSearchEl) {
+  brandsSearchEl.addEventListener('input', applyBrandFilters);
+  brandsSearchEl.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      applyBrandFilters();
+    }
+  });
+}
+
+if (brandsSearchBtnEl) {
+  brandsSearchBtnEl.addEventListener('click', applyBrandFilters);
+}
+
+if (brandTypeFilterEl) {
+  brandTypeFilterEl.addEventListener('change', applyBrandFilters);
+}
 
 document.addEventListener('DOMContentLoaded', loadBrands);

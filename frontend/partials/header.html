@@ -2,11 +2,20 @@
   <div class="header-left">
     <div class="logo" onclick="window.location.href='index.html'">
       <span class="logo-icon">🍱</span>
-      <span class="logo-text">food<span>delivery</span></span>
+      <span class="logo-text">Quick<span>Bite</span></span>
     </div>
     <div class="header-location">
-      <span class="location-text" id="header-location-text">
-        Delivering to: Your current location
+      <span class="location-label">📍</span>
+      <input 
+        type="text" 
+        id="location-input" 
+        class="location-input" 
+        placeholder="Enter your location"
+        value=""
+      />
+      <button id="save-location-btn" class="btn-save-location">Save</button>
+      <span class="location-display" id="location-display" style="display: none;">
+        Delivering to: <span id="saved-location-text"></span>
       </span>
     </div>
   </div>
@@ -27,3 +36,49 @@
     <button class="icon-btn" onclick="window.location.href='cart.html'">🛒</button>
   </div>
 </header>
+
+<script>
+// Location functionality
+(function() {
+  const locationInput = document.getElementById('location-input');
+  const saveLocationBtn = document.getElementById('save-location-btn');
+  const locationDisplay = document.getElementById('location-display');
+  const savedLocationText = document.getElementById('saved-location-text');
+
+  // Load saved location on page load
+  const savedLocation = localStorage.getItem('fd_user_location');
+  if (savedLocation) {
+    locationInput.style.display = 'none';
+    saveLocationBtn.style.display = 'none';
+    locationDisplay.style.display = 'inline';
+    savedLocationText.textContent = savedLocation;
+  }
+
+  // Save location
+  if (saveLocationBtn) {
+    saveLocationBtn.addEventListener('click', function() {
+      const location = locationInput.value.trim();
+      if (location) {
+        localStorage.setItem('fd_user_location', location);
+        locationInput.style.display = 'none';
+        saveLocationBtn.style.display = 'none';
+        locationDisplay.style.display = 'inline';
+        savedLocationText.textContent = location;
+      } else {
+        alert('Please enter a location');
+      }
+    });
+  }
+
+  // Allow editing location on click
+  if (locationDisplay) {
+    locationDisplay.addEventListener('click', function() {
+      locationInput.style.display = 'inline';
+      saveLocationBtn.style.display = 'inline';
+      locationDisplay.style.display = 'none';
+      locationInput.value = savedLocationText.textContent;
+      locationInput.focus();
+    });
+  }
+})();
+</script>

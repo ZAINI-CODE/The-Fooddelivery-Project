@@ -4,6 +4,16 @@ body {
   background-color: var(--bg);
 }
 
+/* Filters */
+
+.filters select {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+  font-size: 13px;
+}
+
 .brand-row {
   display: flex;
   gap: 12px;

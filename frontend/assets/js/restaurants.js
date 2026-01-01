@@ -2,6 +2,7 @@
 
 const restaurantListEl = document.getElementById('restaurant-list');
 const searchInputEl = document.getElementById('restaurant-search');
+const searchBtnEl = document.getElementById('restaurant-search-btn');
 const citySelectEl = document.getElementById('filter-city');
 const ratingRadios = document.querySelectorAll('input[name="rating"]');
 const toastEl = document.getElementById('toast');
@@ -126,6 +127,15 @@ function applyFilters() {
 // Events
 if (searchInputEl) {
   searchInputEl.addEventListener('input', applyFilters);
+  searchInputEl.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      applyFilters();
+    }
+  });
+}
+
+if (searchBtnEl) {
+  searchBtnEl.addEventListener('click', applyFilters);
 }
 
 if (citySelectEl) {
