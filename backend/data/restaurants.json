@@ -8,7 +8,7 @@
     "deliveryFee": 179,
     "rating": 4.4,
     "minOrder": 500,
-    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+    "image": "https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png",
     "open": true
   },
   {
@@ -20,7 +20,7 @@
     "deliveryFee": 149,
     "rating": 4.3,
     "minOrder": 450,
-    "image": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png",
     "open": true
   },
   {
@@ -32,7 +32,7 @@
     "deliveryFee": 169,
     "rating": 4.2,
     "minOrder": 550,
-    "image": "https://images.pexels.com/photos/2271099/pexels-photo-2271099.jpeg",
+    "image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
     "open": true
   },
   {
@@ -44,7 +44,7 @@
     "deliveryFee": 199,
     "rating": 4.1,
     "minOrder": 600,
-    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Hardee%27s_Restaurants_logo.svg/1200px-Hardee%27s_Restaurants_logo.svg.png",
     "open": true
   },
   {
@@ -56,7 +56,7 @@
     "deliveryFee": 199,
     "rating": 4.5,
     "minOrder": 650,
-    "image": "https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
     "open": true
   },
   {
@@ -152,7 +152,7 @@
     "deliveryFee": 229,
     "rating": 4.2,
     "minOrder": 900,
-    "image": "https://images.pexels.com/photos/4106488/pexels-photo-4106488.jpeg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Nandos_logo.svg/1200px-Nandos_logo.svg.png",
     "open": true
   },
   {

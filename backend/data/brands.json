@@ -4,18 +4,32 @@
     "name": "KFC",
     "type": "Restaurant",
     "description": "Famous for fried chicken and zinger burgers.",
-    "logo": "https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png",
     "city": "Multiple",
-    "rating": 4.4
+    "rating": 4.4,
+    "products": [
+      {"id": 101, "name": "Zinger Burger", "price": 450, "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"},
+      {"id": 102, "name": "Chicken Bucket", "price": 1800, "image": "https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg"},
+      {"id": 103, "name": "Hot Wings", "price": 550, "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg"},
+      {"id": 104, "name": "Twister Wrap", "price": 420, "image": "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg"},
+      {"id": 105, "name": "Chicken Popcorn", "price": 380, "image": "https://images.pexels.com/photos/4518654/pexels-photo-4518654.jpeg"}
+    ]
   },
   {
     "id": 2,
     "name": "McDonald's",
     "type": "Restaurant",
     "description": "Global fast food chain serving burgers and fries.",
-    "logo": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png",
     "city": "Multiple",
-    "rating": 4.3
+    "rating": 4.3,
+    "products": [
+      {"id": 201, "name": "Big Mac", "price": 520, "image": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg"},
+      {"id": 202, "name": "McChicken", "price": 390, "image": "https://images.pexels.com/photos/580612/pexels-photo-580612.jpeg"},
+      {"id": 203, "name": "French Fries", "price": 180, "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg"},
+      {"id": 204, "name": "Happy Meal", "price": 450, "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg"},
+      {"id": 205, "name": "McFlurry", "price": 280, "image": "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg"}
+    ]
   },
   {
     "id": 3,
@@ -24,7 +38,14 @@
     "description": "Popular pizza chain with loaded cheese pizzas.",
     "logo": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
     "city": "Multiple",
-    "rating": 4.4
+    "rating": 4.4,
+    "products": [
+      {"id": 301, "name": "Fajita Pizza", "price": 899, "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg"},
+      {"id": 302, "name": "Tikka Pizza", "price": 899, "image": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg"},
+      {"id": 303, "name": "Cheese Lover Pizza", "price": 999, "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg"},
+      {"id": 304, "name": "BBQ Pizza", "price": 949, "image": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg"},
+      {"id": 305, "name": "Pepperoni Pizza", "price": 1099, "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg"}
+    ]
   },
   {
     "id": 4,
@@ -33,7 +54,14 @@
     "description": "Gourmet pizzas with premium toppings.",
     "logo": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg",
     "city": "Multiple",
-    "rating": 4.3
+    "rating": 4.3,
+    "products": [
+      {"id": 401, "name": "Broadway Special", "price": 1299, "image": "https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg"},
+      {"id": 402, "name": "Vegetarian Supreme", "price": 1099, "image": "https://images.pexels.com/photos/1082343/pexels-photo-1082343.jpeg"},
+      {"id": 403, "name": "Meat Feast", "price": 1399, "image": "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg"},
+      {"id": 404, "name": "Garlic Bread", "price": 299, "image": "https://images.pexels.com/photos/2491273/pexels-photo-2491273.jpeg"},
+      {"id": 405, "name": "Chicken Wings", "price": 599, "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg"}
+    ]
   },
   {
     "id": 5,
@@ -42,7 +70,14 @@
     "description": "Pakistani brand known for fries and burgers.",
     "logo": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg",
     "city": "Karachi, Lahore, Islamabad",
-    "rating": 4.4
+    "rating": 4.4,
+    "products": [
+      {"id": 501, "name": "Crispy Fries", "price": 250, "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg"},
+      {"id": 502, "name": "Cheese Fries", "price": 350, "image": "https://images.pexels.com/photos/2741448/pexels-photo-2741448.jpeg"},
+      {"id": 503, "name": "OPTP Burger", "price": 420, "image": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg"},
+      {"id": 504, "name": "Chicken Nuggets", "price": 380, "image": "https://images.pexels.com/photos/4518654/pexels-photo-4518654.jpeg"},
+      {"id": 505, "name": "Crispy Chicken", "price": 450, "image": "https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg"}
+    ]
   },
   {
     "id": 6,
@@ -51,7 +86,14 @@
     "description": "Gourmet smash burgers with creative toppings.",
     "logo": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
     "city": "Karachi, Lahore, Islamabad",
-    "rating": 4.6
+    "rating": 4.6,
+    "products": [
+      {"id": 601, "name": "Smash Burger", "price": 599, "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"},
+      {"id": 602, "name": "Double Cheese Burger", "price": 799, "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"},
+      {"id": 603, "name": "Truffle Burger", "price": 899, "image": "https://images.pexels.com/photos/3219483/pexels-photo-3219483.jpeg"},
+      {"id": 604, "name": "Dynamite Fries", "price": 399, "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg"},
+      {"id": 605, "name": "Milkshake", "price": 350, "image": "https://images.pexels.com/photos/1337824/pexels-photo-1337824.jpeg"}
+    ]
   },
   {
     "id": 7,
@@ -60,7 +102,14 @@
     "description": "Steaks and burgers with Western cowboy theme.",
     "logo": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg",
     "city": "Lahore, Islamabad",
-    "rating": 4.5
+    "rating": 4.5,
+    "products": [
+      {"id": 701, "name": "Beef Steak", "price": 1499, "image": "https://images.pexels.com/photos/1080115/pexels-photo-1080115.jpeg"},
+      {"id": 702, "name": "Cowboy Burger", "price": 699, "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg"},
+      {"id": 703, "name": "BBQ Wings", "price": 599, "image": "https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg"},
+      {"id": 704, "name": "Loaded Fries", "price": 449, "image": "https://images.pexels.com/photos/2741448/pexels-photo-2741448.jpeg"},
+      {"id": 705, "name": "Brownie Sundae", "price": 399, "image": "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg"}
+    ]
   },
   {
     "id": 8,
@@ -69,7 +118,14 @@
     "description": "Pakistani pulao, broast and traditional dishes.",
     "logo": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
     "city": "Islamabad, Rawalpindi, Lahore",
-    "rating": 4.7
+    "rating": 4.7,
+    "products": [
+      {"id": 801, "name": "Chicken Pulao", "price": 450, "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"},
+      {"id": 802, "name": "Chicken Broast", "price": 550, "image": "https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg"},
+      {"id": 803, "name": "Mutton Karahi", "price": 1200, "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg"},
+      {"id": 804, "name": "Raita", "price": 120, "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg"},
+      {"id": 805, "name": "Naan", "price": 40, "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg"}
+    ]
   },
   {
     "id": 9,
@@ -78,25 +134,46 @@
     "description": "Spicy biryani and Karachi style rice dishes.",
     "logo": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
     "city": "Karachi",
-    "rating": 4.5
+    "rating": 4.5,
+    "products": [
+      {"id": 901, "name": "Chicken Biryani", "price": 380, "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"},
+      {"id": 902, "name": "Mutton Biryani", "price": 550, "image": "https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"},
+      {"id": 903, "name": "Beef Biryani", "price": 450, "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"},
+      {"id": 904, "name": "Raita", "price": 100, "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg"},
+      {"id": 905, "name": "Shami Kabab", "price": 180, "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg"}
+    ]
   },
   {
     "id": 10,
     "name": "Pepsi",
     "type": "Drinks",
     "description": "Refreshing soft drinks and beverages.",
-    "logo": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Pepsi_logo_2014.svg/1200px-Pepsi_logo_2014.svg.png",
     "city": "Pakistan",
-    "rating": 4.5
+    "rating": 4.5,
+    "products": [
+      {"id": 1001, "name": "Pepsi 0.5L", "price": 80, "image": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg"},
+      {"id": 1002, "name": "Pepsi 1L", "price": 140, "image": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg"},
+      {"id": 1003, "name": "Pepsi 1.5L", "price": 180, "image": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg"},
+      {"id": 1004, "name": "Pepsi 2.5L", "price": 280, "image": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg"},
+      {"id": 1005, "name": "Diet Pepsi 1L", "price": 150, "image": "https://images.pexels.com/photos/2775860/pexels-photo-2775860.jpeg"}
+    ]
   },
   {
     "id": 11,
     "name": "Coca Cola",
     "type": "Drinks",
     "description": "Classic cola drinks and refreshments.",
-    "logo": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png",
     "city": "Pakistan",
-    "rating": 4.6
+    "rating": 4.6,
+    "products": [
+      {"id": 1101, "name": "Coca Cola 0.5L", "price": 85, "image": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg"},
+      {"id": 1102, "name": "Coca Cola 1L", "price": 145, "image": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg"},
+      {"id": 1103, "name": "Coca Cola 1.5L", "price": 185, "image": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg"},
+      {"id": 1104, "name": "Coca Cola 2.5L", "price": 290, "image": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg"},
+      {"id": 1105, "name": "Coke Zero 1L", "price": 155, "image": "https://images.pexels.com/photos/2668307/pexels-photo-2668307.jpeg"}
+    ]
   },
   {
     "id": 12,
@@ -105,25 +182,46 @@
     "description": "Premium Pakistani soft drink brand.",
     "logo": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg",
     "city": "Pakistan",
-    "rating": 4.3
+    "rating": 4.3,
+    "products": [
+      {"id": 1201, "name": "Gourmet Cola 0.5L", "price": 75, "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg"},
+      {"id": 1202, "name": "Gourmet Cola 1L", "price": 130, "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg"},
+      {"id": 1203, "name": "Gourmet Cola 1.5L", "price": 170, "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg"},
+      {"id": 1204, "name": "Gourmet Cola 2.5L", "price": 270, "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg"},
+      {"id": 1205, "name": "Gourmet Orange 1L", "price": 140, "image": "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg"}
+    ]
   },
   {
     "id": 13,
     "name": "Nestle",
     "type": "Drinks & Water",
     "description": "Pure water, juices and dairy products.",
-    "logo": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Nestl%C3%A9.svg/1200px-Nestl%C3%A9.svg.png",
     "city": "Pakistan",
-    "rating": 4.4
+    "rating": 4.4,
+    "products": [
+      {"id": 1301, "name": "Pure Life 0.5L", "price": 40, "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg"},
+      {"id": 1302, "name": "Pure Life 1L", "price": 70, "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg"},
+      {"id": 1303, "name": "Pure Life 1.5L", "price": 90, "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg"},
+      {"id": 1304, "name": "Pure Life 2.5L", "price": 130, "image": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg"},
+      {"id": 1305, "name": "Nestle Juice 1L", "price": 180, "image": "https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg"}
+    ]
   },
   {
     "id": 14,
     "name": "Red Bull",
     "type": "Energy Drinks",
     "description": "Popular energy drink brand.",
-    "logo": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Red_Bull_Logo.svg/1200px-Red_Bull_Logo.svg.png",
     "city": "Pakistan",
-    "rating": 4.4
+    "rating": 4.4,
+    "products": [
+      {"id": 1401, "name": "Red Bull 250ml", "price": 250, "image": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg"},
+      {"id": 1402, "name": "Red Bull 355ml", "price": 320, "image": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg"},
+      {"id": 1403, "name": "Red Bull Sugar Free 250ml", "price": 260, "image": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg"},
+      {"id": 1404, "name": "Red Bull Tropical 250ml", "price": 270, "image": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg"},
+      {"id": 1405, "name": "Red Bull Watermelon 250ml", "price": 270, "image": "https://images.pexels.com/photos/6214430/pexels-photo-6214430.jpeg"}
+    ]
   },
   {
     "id": 15,
@@ -132,7 +230,14 @@
     "description": "Traditional sharbat brand.",
     "logo": "https://images.pexels.com/photos/5947029/pexels-photo-5947029.jpeg",
     "city": "Pakistan",
-    "rating": 4.7
+    "rating": 4.7,
+    "products": [
+      {"id": 1501, "name": "Rooh Afza Sharbat 800ml", "price": 320, "image": "https://images.pexels.com/photos/5947029/pexels-photo-5947029.jpeg"},
+      {"id": 1502, "name": "Rooh Afza Milk 200ml", "price": 120, "image": "https://images.pexels.com/photos/5947029/pexels-photo-5947029.jpeg"},
+      {"id": 1503, "name": "Rooh Afza Concentrate 500ml", "price": 280, "image": "https://images.pexels.com/photos/5947029/pexels-photo-5947029.jpeg"},
+      {"id": 1504, "name": "Rooh Afza Ice Cream", "price": 150, "image": "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg"},
+      {"id": 1505, "name": "Rooh Afza Kulfi", "price": 100, "image": "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg"}
+    ]
   },
   {
     "id": 16,
@@ -141,6 +246,13 @@
     "description": "Popular herbal drink brand.",
     "logo": "https://images.pexels.com/photos/5947028/pexels-photo-5947028.jpeg",
     "city": "Pakistan",
-    "rating": 4.6
+    "rating": 4.6,
+    "products": [
+      {"id": 1601, "name": "Jam-e-Shirin 800ml", "price": 290, "image": "https://images.pexels.com/photos/5947028/pexels-photo-5947028.jpeg"},
+      {"id": 1602, "name": "Qarshi Herbal Tea", "price": 180, "image": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg"},
+      {"id": 1603, "name": "Qarshi Honey", "price": 450, "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg"},
+      {"id": 1604, "name": "Qarshi Johar Joshanda", "price": 220, "image": "https://images.pexels.com/photos/5947028/pexels-photo-5947028.jpeg"},
+      {"id": 1605, "name": "Qarshi Special Drink", "price": 190, "image": "https://images.pexels.com/photos/5947028/pexels-photo-5947028.jpeg"}
+    ]
   }
 ]

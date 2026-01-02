@@ -83,9 +83,22 @@ function placeOrder(cart, subtotal, deliveryFee, total) {
     paymentMethod: 'Cash on Delivery'
   };
 
-  // Save order to localStorage
+  // Save order to current order
   localStorage.setItem('fd_current_order', JSON.stringify(order));
   localStorage.setItem('fd_order_status', '0'); // Initial status
+
+  // Add order to orders history
+  try {
+    const ordersJson = localStorage.getItem('fd_orders');
+    let orders = [];
+    if (ordersJson) {
+      orders = JSON.parse(ordersJson);
+    }
+    orders.push(order);
+    localStorage.setItem('fd_orders', JSON.stringify(orders));
+  } catch (e) {
+    console.warn('Failed to save order to history', e);
+  }
 
   // Clear cart
   clearCart();
