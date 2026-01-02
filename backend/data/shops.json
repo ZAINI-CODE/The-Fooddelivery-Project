@@ -1,17 +1,61 @@
 [
   {
     "id": 1,
-    "name": "BrightFarms Grocery",
-    "type": "Groceries",
+    "name": "Al-Fateh Store",
+    "type": "Supermarket",
     "deliveryTime": "25-40 min",
-    "deliveryFee": 159,
-    "rating": 4.6,
-    "tags": ["Groceries", "Fruits & Vegetables", "Deals"],
-    "heroImage": "https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg"
+    "deliveryFee": 149,
+    "rating": 4.7,
+    "tags": ["Supermarket", "Groceries", "Household"],
+    "heroImage": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg"
   },
   {
     "id": 2,
+    "name": "Imtiaz Mart",
+    "type": "Hypermarket",
+    "deliveryTime": "30-45 min",
+    "deliveryFee": 179,
+    "rating": 4.8,
+    "tags": ["Hypermarket", "Everything", "Best Prices"],
+    "heroImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Jalal Sons Bakery",
+    "type": "Bakery",
+    "deliveryTime": "15-25 min",
+    "deliveryFee": 99,
+    "rating": 4.6,
+    "tags": ["Bakery", "Fresh Bread", "Cakes"],
+    "heroImage": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Rahat Bakery",
+    "type": "Bakery",
+    "deliveryTime": "20-30 min",
+    "deliveryFee": 109,
+    "rating": 4.5,
+    "tags": ["Bakery", "Biscuits", "Pastries"],
+    "heroImage": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "United Bakery",
+    "type": "Bakery",
+    "deliveryTime": "18-28 min",
+    "deliveryFee": 119,
+    "rating": 4.7,
+    "tags": ["Bakery", "Cookies", "Sweets"],
+    "heroImage": "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg",
+    "thumbnail": "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg"
+  },
+  {
+    "id": 6,
     "name": "Med-Cure Pharmacy",
     "type": "Pharmacy",
     "deliveryTime": "5-20 min",
@@ -22,7 +66,7 @@
     "thumbnail": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg"
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Allure Beauty Store",
     "type": "Beauty",
     "deliveryTime": "10-25 min",
@@ -33,18 +77,7 @@
     "thumbnail": "https://images.pexels.com/photos/3738364/pexels-photo-3738364.jpeg"
   },
   {
-    "id": 4,
-    "name": "Prime Home Essentials",
-    "type": "Supermarket",
-    "deliveryTime": "25-40 min",
-    "deliveryFee": 129,
-    "rating": 4.5,
-    "tags": ["Supermarket", "Home"],
-    "heroImage": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg"
-  },
-  {
-    "id": 5,
+    "id": 8,
     "name": "Fresh Mart",
     "type": "Groceries",
     "deliveryTime": "20-35 min",
@@ -55,7 +88,7 @@
     "thumbnail": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg"
   },
   {
-    "id": 6,
+    "id": 9,
     "name": "Green Valley Organics",
     "type": "Fruits & Vegetables",
     "deliveryTime": "15-30 min",
@@ -66,7 +99,7 @@
     "thumbnail": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg"
   },
   {
-    "id": 7,
+    "id": 10,
     "name": "HealthPlus Pharmacy",
     "type": "Pharmacy",
     "deliveryTime": "10-20 min",
@@ -75,38 +108,5 @@
     "tags": ["Health & Wellbeing", "Medicines"],
     "heroImage": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg",
     "thumbnail": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg"
-  },
-  {
-    "id": 8,
-    "name": "Glow Beauty",
-    "type": "Beauty",
-    "deliveryTime": "15-30 min",
-    "deliveryFee": 169,
-    "rating": 4.3,
-    "tags": ["Beauty", "Skincare"],
-    "heroImage": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg"
-  },
-  {
-    "id": 9,
-    "name": "MegaMart Superstore",
-    "type": "Supermarket",
-    "deliveryTime": "30-45 min",
-    "deliveryFee": 179,
-    "rating": 4.4,
-    "tags": ["Supermarket", "Everything"],
-    "heroImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg"
-  },
-  {
-    "id": 10,
-    "name": "Quick Stop Convenience",
-    "type": "Groceries",
-    "deliveryTime": "10-20 min",
-    "deliveryFee": 99,
-    "rating": 4.2,
-    "tags": ["Groceries", "Quick Delivery"],
-    "heroImage": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg"
   }
 ]

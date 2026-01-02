@@ -35,6 +35,10 @@ body {
 
 .card.restaurant-card .card-image {
   height: 160px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
 }
 
 .card.restaurant-card .card-body {
