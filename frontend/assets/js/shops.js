@@ -170,9 +170,6 @@ function renderCart() {
 
 // ------- Initial load -------
 
-let allShops = [];
-let allProducts = [];
-
 async function loadShopsAndProducts() {
   try {
     allShops = await window.api.getShops();
@@ -220,9 +217,20 @@ function renderShopsAndProducts(shops, products) {
     shopsRowEl.appendChild(createShopCard(shop));
   });
 
-  // Group products by category
-  const fresh = products.filter((p) => p.category === 'Freshly Picked For You');
-  const beauty = products.filter((p) => p.category === 'Beauty Boutique');
+  // Group products by category - match with new product categories
+  const fresh = products.filter((p) => p.category && (
+    p.category.includes('Al-Fateh') || 
+    p.category.includes('Imtiaz') ||
+    p.category.includes('Freshly Picked For You')
+  ));
+  
+  const bakery = products.filter((p) => p.category && (
+    p.category.includes('Jalal Sons') ||
+    p.category.includes('Rahat') ||
+    p.category.includes('United') ||
+    p.category.includes('Beauty Boutique')
+  ));
+  
   const tissues = products.filter((p) => p.category === 'Prime Tissues');
   const health = products.filter((p) => p.category === 'Health Essentials');
 
@@ -231,10 +239,10 @@ function renderShopsAndProducts(shops, products) {
   tissuesRowEl.innerHTML = '';
   healthRowEl.innerHTML = '';
 
-  fresh.forEach((p) => freshRowEl.appendChild(createProductCard(p)));
-  beauty.forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
-  tissues.forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
-  health.forEach((p) => healthRowEl.appendChild(createProductCard(p)));
+  fresh.slice(0, 10).forEach((p) => freshRowEl.appendChild(createProductCard(p)));
+  bakery.slice(0, 10).forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
+  tissues.slice(0, 10).forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
+  health.slice(0, 10).forEach((p) => healthRowEl.appendChild(createProductCard(p)));
 }
 
 // Search event listeners
