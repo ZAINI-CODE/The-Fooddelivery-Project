@@ -36,6 +36,148 @@
 
   <!-- DASHBOARD SECTIONS -->
   <main class="dashboard-main">
+    <!-- PROMO CAROUSEL / HERO BANNER -->
+    <section class="promo-carousel-section">
+      <div class="promo-carousel">
+        <button class="carousel-arrow carousel-arrow-left" id="promo-arrow-left">‹</button>
+        <div class="promo-slides" id="promo-slides">
+          <div class="promo-slide active">
+            <div class="promo-content">
+              <div class="promo-text">
+                <h2>Weekend Special!</h2>
+                <p>Get 30% OFF on all orders above Rs. 1000</p>
+                <div class="countdown-badge">⏱️ Ends in 2 days</div>
+              </div>
+              <div class="promo-restaurants">
+                <div class="promo-restaurant-card">
+                  <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png" alt="KFC" />
+                  <div>
+                    <div class="restaurant-name">KFC</div>
+                    <div class="restaurant-meta">★ 4.4 • Fast Food • 25-35 min</div>
+                    <div class="restaurant-price">Rs. 500 min</div>
+                  </div>
+                </div>
+                <div class="promo-restaurant-card">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png" alt="McDonald's" />
+                  <div>
+                    <div class="restaurant-name">McDonald's</div>
+                    <div class="restaurant-meta">★ 4.3 • Fast Food • 20-30 min</div>
+                    <div class="restaurant-price">Rs. 450 min</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="promo-slide">
+            <div class="promo-content">
+              <div class="promo-text">
+                <h2>Free Delivery!</h2>
+                <p>No delivery charges on orders above Rs. 799</p>
+                <div class="countdown-badge">🎉 Limited time offer</div>
+              </div>
+              <div class="promo-restaurants">
+                <div class="promo-restaurant-card">
+                  <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg" alt="Pizza" />
+                  <div>
+                    <div class="restaurant-name">Cheezious</div>
+                    <div class="restaurant-meta">★ 4.4 • Pizza • 30-40 min</div>
+                    <div class="restaurant-price">Rs. 700 min</div>
+                  </div>
+                </div>
+                <div class="promo-restaurant-card">
+                  <img src="https://images.pexels.com/photos/2619967/pexels-photo-2619967.jpeg" alt="Broadway" />
+                  <div>
+                    <div class="restaurant-name">Broadway Pizza</div>
+                    <div class="restaurant-meta">★ 4.3 • Pizza • 35-50 min</div>
+                    <div class="restaurant-price">Rs. 900 min</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow carousel-arrow-right" id="promo-arrow-right">›</button>
+      </div>
+    </section>
+
+    <!-- CUISINES STRIP -->
+    <section class="cuisines-section">
+      <h2>Explore cuisines</h2>
+      <div class="cuisines-strip">
+        <div class="cuisine-chip" onclick="window.location.href='restaurants.html'">
+          <div class="cuisine-icon">🍔</div>
+          <div class="cuisine-label">Fast Food</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='restaurants.html'">
+          <div class="cuisine-icon">🍕</div>
+          <div class="cuisine-label">Pizza</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='burgers.html'">
+          <div class="cuisine-icon">🍔</div>
+          <div class="cuisine-label">Burgers</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='restaurants.html'">
+          <div class="cuisine-icon">🍛</div>
+          <div class="cuisine-label">Biryani</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='pickup.html'">
+          <div class="cuisine-icon">🫓</div>
+          <div class="cuisine-label">Paratha</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='restaurants.html'">
+          <div class="cuisine-icon">🥘</div>
+          <div class="cuisine-label">Karahi</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='restaurants.html'">
+          <div class="cuisine-icon">🍗</div>
+          <div class="cuisine-label">BBQ</div>
+        </div>
+        <div class="cuisine-chip" onclick="window.location.href='drinks.html'">
+          <div class="cuisine-icon">🥤</div>
+          <div class="cuisine-label">Drinks</div>
+        </div>
+      </div>
+      <button class="see-more-btn">See more →</button>
+    </section>
+
+    <!-- DAILY DEALS CAROUSEL -->
+    <section class="daily-deals-section">
+      <h2>Your daily deals</h2>
+      <div class="deals-carousel">
+        <button class="carousel-arrow carousel-arrow-left" id="deals-arrow-left">‹</button>
+        <div class="deals-slides" id="deals-slides">
+          <div class="deal-card">
+            <div class="deal-badge">50% OFF</div>
+            <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg" alt="Burger Deal" />
+            <div class="deal-info">
+              <h3>Buy 1 Get 1 Free</h3>
+              <p>On all burgers</p>
+              <div class="deal-restaurant">Burger Lab</div>
+            </div>
+          </div>
+          <div class="deal-card">
+            <div class="deal-badge">30% OFF</div>
+            <img src="https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg" alt="Pizza Deal" />
+            <div class="deal-info">
+              <h3>Large Pizza Deal</h3>
+              <p>Get 30% off on large pizzas</p>
+              <div class="deal-restaurant">Cheezious</div>
+            </div>
+          </div>
+          <div class="deal-card">
+            <div class="deal-badge">FREE DELIVERY</div>
+            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Biryani Deal" />
+            <div class="deal-info">
+              <h3>Family Biryani</h3>
+              <p>Free delivery on orders above Rs. 999</p>
+              <div class="deal-restaurant">Karachi Biryani</div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-arrow carousel-arrow-right" id="deals-arrow-right">›</button>
+      </div>
+    </section>
+
     <section class="dashboard-section">
       <h2>Explore categories</h2>
       <div class="dashboard-cards-grid">
@@ -69,9 +211,11 @@
 
     <section class="dashboard-section">
       <h2>Your recent orders</h2>
-      <p class="muted">
-        You don’t have any orders yet. Start by exploring restaurants or shops.
-      </p>
+      <div id="recent-orders-container">
+        <p class="muted">
+          You don't have any orders yet. Start by exploring restaurants or shops.
+        </p>
+      </div>
     </section>
   </main>
 

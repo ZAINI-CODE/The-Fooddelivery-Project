@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>QuickBite - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="home">
+  <!-- Top promo bar -->
+  <div class="top-promo-bar">
+    <div class="top-promo-inner">
+      <button class="btn btn-outline-light">Sign up to be a restaurant partner</button>
+      <button class="btn btn-outline-light">Sign up for a business account</button>
+    </div>
+  </div>
+
+  <!-- Header partial -->
+  <div data-include="partials/header.html"></div>
+
+  <!-- SEARCH BAR -->
+  <section class="search-section">
+    <div class="search-inner">
+      <input
+        type="text"
+        id="home-search"
+        class="search-input"
+        placeholder="Search for restaurants, cuisines, or shops"
+      />
+      <button class="search-btn" id="home-search-btn">Search</button>
+    </div>
+  </section>
+
+  <!-- DASHBOARD SECTIONS -->
+  <main class="dashboard-main">
+    <section class="dashboard-section">
+      <h2>Explore categories</h2>
+      <div class="dashboard-cards-grid">
+        <a href="restaurants.html" class="dash-card">
+          <div class="dash-card-icon">🍽️</div>
+          <div class="dash-card-title">Restaurants</div>
+          <p>Order from top‑rated nearby restaurants.</p>
+        </a>
+        <a href="shops.html" class="dash-card">
+          <div class="dash-card-icon">🛍️</div>
+          <div class="dash-card-title">Shops</div>
+          <p>Groceries, pharmacies, beauty &amp; more.</p>
+        </a>
+        <a href="drinks.html" class="dash-card">
+          <div class="dash-card-icon">🥤</div>
+          <div class="dash-card-title">Drinks</div>
+          <p>Soft drinks, juices, energy drinks.</p>
+        </a>
+        <a href="burgers.html" class="dash-card">
+          <div class="dash-card-icon">🍔</div>
+          <div class="dash-card-title">Burgers</div>
+          <p>Juicy burgers from your favourite brands.</p>
+        </a>
+        <a href="brands.html" class="dash-card">
+          <div class="dash-card-icon">🏷️</div>
+          <div class="dash-card-title">Brands</div>
+          <p>Shop by brand and special collections.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="dashboard-section">
+      <h2>Your recent orders</h2>
+      <p class="muted">
+        You don’t have any orders yet. Start by exploring restaurants or shops.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer partial -->
+  <div data-include="partials/footer.html"></div>
+
+  <script src="assets/js/utils/dom-utils.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
