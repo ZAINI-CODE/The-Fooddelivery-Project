@@ -139,7 +139,7 @@ function renderCart() {
     checkoutBtn.disabled = false;
     checkoutBtn.classList.remove('btn-disabled');
     checkoutBtn.classList.add('btn-primary');
-    checkoutBtn.onclick = () => window.location.href = 'checkout.html';
+    checkoutBtn.onclick = () => window.location.href = 'cart.html';
   }
 
   let subtotal = 0;

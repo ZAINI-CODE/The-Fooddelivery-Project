@@ -1,0 +1,36 @@
+{
+  "name": "quickbite-food-delivery",
+  "version": "1.0.0",
+  "description": "A comprehensive food delivery platform with restaurants, shops, drinks, and complete checkout flow",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && python3 -m http.server 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZAINI-CODE/The-Fooddelivery-Project.git"
+  },
+  "keywords": [
+    "food-delivery",
+    "restaurant",
+    "e-commerce",
+    "nodejs",
+    "javascript",
+    "express",
+    "html",
+    "css"
+  ],
+  "author": "ZAINI-CODE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZAINI-CODE/The-Fooddelivery-Project/issues"
+  },
+  "homepage": "https://github.com/ZAINI-CODE/The-Fooddelivery-Project#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

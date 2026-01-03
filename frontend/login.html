@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Login - Food Delivery</title>
+  <title>Login - QuickBite</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="assets/css/auth.css" />
@@ -13,21 +13,13 @@
     <div class="auth-modal">
       <button class="auth-close" id="close-modal">&times;</button>
 
-      <h1 class="auth-title">Welcome!</h1>
-      <p class="auth-subtitle">Sign up or log in to continue</p>
+      <h1 class="auth-title">Welcome to QuickBite!</h1>
+      <p class="auth-subtitle">Sign in to place your order</p>
 
       <div class="auth-buttons">
-        <button class="btn btn-facebook">
-          Continue with Facebook
-        </button>
-
-        <button class="btn btn-google">
-          <span class="google-icon"></span>
+        <button class="btn btn-google" id="google-login-btn">
+          <span class="google-icon">G</span>
           <span>Continue with Google</span>
-        </button>
-
-        <button class="btn btn-apple">
-          Continue with Apple
         </button>
       </div>
 
@@ -60,9 +52,9 @@
       </button>
 
       <p class="auth-terms">
-        By signing up, you agree to our
-        <a href="#">Terms and Conditions</a> and
-        <a href="#">Privacy Policy</a>.
+        By signing in, you agree to our
+        <a href="privacy.html">Terms and Conditions</a> and
+        <a href="privacy.html">Privacy Policy</a>.
       </p>
 
       <p id="auth-message" class="auth-message"></p>

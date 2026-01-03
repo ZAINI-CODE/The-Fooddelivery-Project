@@ -7,6 +7,11 @@ const passwordInput = document.getElementById('password');
 const messageEl = document.getElementById('auth-message');
 const closeBtn = document.getElementById('close-modal');
 const signupBtn = document.getElementById('signup-btn');
+const googleLoginBtn = document.getElementById('google-login-btn');
+
+// Get redirect URL from query params
+const urlParams = new URLSearchParams(window.location.search);
+const redirectUrl = urlParams.get('redirect') || 'index.html';
 
 // Handle login submit
 if (loginForm) {
@@ -23,35 +28,39 @@ if (loginForm) {
       return;
     }
 
-    try {
-      const res = await fetch(`${API_BASE_URL}/api/auth/login`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ email, password })
-      });
+    // Simple demo login - just save user data
+    const user = {
+      email: email,
+      name: email.split('@')[0],
+      loginMethod: 'email'
+    };
+    
+    localStorage.setItem('fd_user', JSON.stringify(user));
+    showMessage('Login successful! Redirecting...', 'success');
 
-      const data = await res.json();
+    // Redirect to original page or home
+    setTimeout(() => {
+      window.location.href = redirectUrl;
+    }, 800);
+  });
+}
 
-      if (!res.ok || !data.success) {
-        showMessage(data.message || 'Login failed.', 'error');
-        return;
-      }
-
-      // Save user to localStorage
-      localStorage.setItem('fd_user', JSON.stringify(data.user));
-
-      showMessage('Login successful! Redirecting...', 'success');
-
-      // Redirect to dashboard/home (index.html)
-      setTimeout(() => {
-        window.location.href = 'index.html';
-      }, 800);
-    } catch (err) {
-      console.error(err);
-      showMessage('Server error. Please try again.', 'error');
-    }
+// Google Login (Simulated)
+if (googleLoginBtn) {
+  googleLoginBtn.addEventListener('click', () => {
+    // Simulate Google login - in production, use Google OAuth
+    const googleUser = {
+      email: 'user@gmail.com',
+      name: 'Google User',
+      loginMethod: 'google'
+    };
+    
+    localStorage.setItem('fd_user', JSON.stringify(googleUser));
+    showMessage('Logged in with Google! Redirecting...', 'success');
+    
+    setTimeout(() => {
+      window.location.href = redirectUrl;
+    }, 800);
   });
 }
 
@@ -67,18 +76,9 @@ if (closeBtn) {
   });
 }
 
-// Sign up button: for now, just go to register.html
+// Sign up button: go to register
 if (signupBtn) {
   signupBtn.addEventListener('click', () => {
     window.location.href = 'register.html';
   });
 }
-
-// Optional: fake social buttons (just show an alert)
-document.querySelectorAll('.btn-facebook, .btn-google, .btn-apple').forEach(
-  (btn) => {
-    btn.addEventListener('click', () => {
-      alert('Social login is not implemented in this demo.');
-    });
-  }
-);

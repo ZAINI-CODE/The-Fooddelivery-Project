@@ -1,8 +1,8 @@
-// Checkout Page
+// Checkout Page - Updated to redirect to payment page
 
 const checkoutItemsEl = document.getElementById('checkout-items');
 const checkoutTotalEl = document.getElementById('checkout-total');
-const placeOrderBtn = document.getElementById('place-order-btn');
+const proceedToPaymentBtn = document.getElementById('proceed-to-payment-btn');
 const checkoutMessage = document.getElementById('checkout-message');
 
 function renderCheckout() {
@@ -16,7 +16,7 @@ function renderCheckout() {
         <a href="restaurants.html" class="btn btn-primary">Browse Restaurants</a>
       </div>
     `;
-    if (placeOrderBtn) placeOrderBtn.style.display = 'none';
+    if (proceedToPaymentBtn) proceedToPaymentBtn.style.display = 'none';
     return;
   }
 
@@ -64,55 +64,22 @@ function renderCheckout() {
     `;
   }
 
-  if (placeOrderBtn) {
-    placeOrderBtn.onclick = () => placeOrder(cart, subtotal, deliveryFee, total);
+  if (proceedToPaymentBtn) {
+    proceedToPaymentBtn.onclick = () => proceedToPayment();
   }
 }
 
-function placeOrder(cart, subtotal, deliveryFee, total) {
-  // Create order object
-  const order = {
-    orderId: Math.floor(Math.random() * 1000000),
-    items: cart,
-    subtotal: subtotal,
-    deliveryFee: deliveryFee,
-    total: total,
-    timestamp: new Date().toISOString(),
-    address: '123 Main Street, Islamabad', // Default address
-    phone: '+92 300 1234567', // Default phone
-    paymentMethod: 'Cash on Delivery'
-  };
-
-  // Save order to current order
-  localStorage.setItem('fd_current_order', JSON.stringify(order));
-  localStorage.setItem('fd_order_status', '0'); // Initial status
-
-  // Add order to orders history
-  try {
-    const ordersJson = localStorage.getItem('fd_orders');
-    let orders = [];
-    if (ordersJson) {
-      orders = JSON.parse(ordersJson);
-    }
-    orders.push(order);
-    localStorage.setItem('fd_orders', JSON.stringify(orders));
-  } catch (e) {
-    console.warn('Failed to save order to history', e);
+function proceedToPayment() {
+  // Check if user is logged in
+  const user = localStorage.getItem('fd_user');
+  if (!user) {
+    // Redirect to login with return URL
+    window.location.href = 'login.html?redirect=payment.html';
+    return;
   }
-
-  // Clear cart
-  clearCart();
-
-  // Show success message
-  if (checkoutMessage) {
-    checkoutMessage.textContent = 'Order placed successfully! Redirecting...';
-    checkoutMessage.style.color = 'green';
-  }
-
-  // Redirect to tracking page
-  setTimeout(() => {
-    window.location.href = 'track-order.html?orderId=' + order.orderId;
-  }, 1500);
+  
+  // Proceed to payment page
+  window.location.href = 'payment.html';
 }
 
 document.addEventListener('DOMContentLoaded', renderCheckout);

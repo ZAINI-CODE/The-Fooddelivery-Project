@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Payment - QuickBite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/payment.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="payment">
+  <div data-include="partials/header.html"></div>
+
+  <main class="payment-main">
+    <div class="payment-container">
+      <!-- Left Column - Forms -->
+      <div class="payment-left">
+        
+        <!-- Delivery Address Card -->
+        <section class="payment-card">
+          <h3 class="payment-card-title">Delivery address</h3>
+          
+          <div class="address-preview" id="address-preview">
+            <div class="map-thumbnail" id="map-thumbnail">
+              📍
+            </div>
+            <div class="saved-address" id="saved-address">
+              <p class="address-text">No address saved yet</p>
+              <button class="edit-link" id="edit-address-btn">Edit address</button>
+            </div>
+          </div>
+
+          <form class="address-form" id="address-form" style="display: none;">
+            <div class="form-group">
+              <label for="street">Street address *</label>
+              <input type="text" id="street" name="street" required 
+                placeholder="Enter your street address" />
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="floor">Floor/Apartment</label>
+                <input type="text" id="floor" name="floor" 
+                  placeholder="e.g., 3rd Floor, Apt 4B" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Delivery notes</label>
+              <textarea id="notes" name="notes" rows="2" 
+                placeholder="Any special instructions for the rider"></textarea>
+            </div>
+
+            <div class="label-chips">
+              <button type="button" class="chip-btn" data-label="Home">🏠 Home</button>
+              <button type="button" class="chip-btn" data-label="Work">💼 Work</button>
+              <button type="button" class="chip-btn" data-label="Other">📍 Other</button>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save and continue</button>
+          </form>
+        </section>
+
+        <!-- Delivery Options Card -->
+        <section class="payment-card">
+          <h3 class="payment-card-title">Delivery options</h3>
+          
+          <div class="delivery-options">
+            <label class="delivery-option">
+              <input type="radio" name="delivery-type" value="standard" checked />
+              <div class="option-content">
+                <div class="option-title">Standard delivery</div>
+                <div class="option-subtitle">Arrives in 30-45 minutes</div>
+              </div>
+            </label>
+
+            <label class="delivery-option">
+              <input type="radio" name="delivery-type" value="scheduled" />
+              <div class="option-content">
+                <div class="option-title">Scheduled delivery</div>
+                <div class="option-subtitle">Choose a delivery time</div>
+              </div>
+            </label>
+          </div>
+
+          <div class="scheduled-picker" id="scheduled-picker" style="display: none;">
+            <div class="form-group">
+              <label for="delivery-date">Delivery date</label>
+              <input type="date" id="delivery-date" name="delivery-date" />
+            </div>
+            <div class="form-group">
+              <label for="delivery-time">Delivery time</label>
+              <input type="time" id="delivery-time" name="delivery-time" />
+            </div>
+          </div>
+        </section>
+
+        <!-- Personal Details Card -->
+        <section class="payment-card">
+          <h3 class="payment-card-title">Personal details</h3>
+          
+          <form id="personal-details-form">
+            <div class="form-group">
+              <label for="fullname">Full name *</label>
+              <input type="text" id="fullname" name="fullname" required 
+                placeholder="Enter your full name" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email address *</label>
+              <input type="email" id="email" name="email" required 
+                placeholder="your.email@example.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile number *</label>
+              <input type="tel" id="mobile" name="mobile" required 
+                placeholder="+92 300 1234567" 
+                pattern="^(\+92|0)?[0-9]{10}$" />
+            </div>
+
+            <button type="button" class="btn btn-secondary" id="save-details-btn" disabled>
+              Save details
+            </button>
+          </form>
+        </section>
+
+        <!-- Tip Your Rider Card -->
+        <section class="payment-card">
+          <h3 class="payment-card-title">Tip your rider</h3>
+          <p class="tip-subtitle">Show your appreciation for great service</p>
+          
+          <div class="tip-chips">
+            <button type="button" class="tip-chip-btn" data-tip="0">No tip</button>
+            <button type="button" class="tip-chip-btn" data-tip="20">Rs. 20</button>
+            <button type="button" class="tip-chip-btn" data-tip="50">Rs. 50</button>
+            <button type="button" class="tip-chip-btn" data-tip="100">Rs. 100</button>
+          </div>
+
+          <div class="form-group custom-tip-group">
+            <label for="custom-tip">Custom amount</label>
+            <input type="number" id="custom-tip" name="custom-tip" min="0" step="10"
+              placeholder="Enter custom tip amount" />
+          </div>
+
+          <label class="checkbox-label">
+            <input type="checkbox" id="save-tip-pref" />
+            <span>Save for next order</span>
+          </label>
+        </section>
+
+        <!-- Place Order Button -->
+        <section class="place-order-section">
+          <button class="btn btn-primary btn-large" id="place-order-btn" disabled>
+            Place order
+          </button>
+          <p class="terms-text">
+            By placing your order, you agree to our 
+            <a href="privacy.html">Terms & Conditions</a> and 
+            <a href="privacy.html">Privacy Policy</a>
+          </p>
+        </section>
+
+      </div>
+
+      <!-- Right Column - Order Summary -->
+      <aside class="payment-right">
+        <div class="order-summary-card" id="order-summary">
+          <h3 class="summary-title">Your order from <span id="restaurant-name">Restaurant</span></h3>
+          
+          <div class="summary-items" id="summary-items">
+            <!-- Items will be populated by JS -->
+          </div>
+
+          <div class="summary-breakdown">
+            <div class="summary-row">
+              <span>Subtotal</span>
+              <span id="summary-subtotal">Rs. 0</span>
+            </div>
+            <div class="summary-row">
+              <span>Delivery fee</span>
+              <span id="summary-delivery-fee">Rs. 150</span>
+            </div>
+            <div class="summary-row">
+              <span>Service fee</span>
+              <span id="summary-service-fee">Rs. 50</span>
+            </div>
+            <div class="summary-row tip-row" id="tip-row" style="display: none;">
+              <span>Rider tip</span>
+              <span id="summary-tip">Rs. 0</span>
+            </div>
+            <div class="summary-row summary-total">
+              <span>Total</span>
+              <span id="summary-total">Rs. 0</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="assets/js/utils/dom-utils.js"></script>
+  <script src="assets/js/utils/cart-utils.js"></script>
+  <script src="assets/js/payment.js"></script>
+</body>
+</html>

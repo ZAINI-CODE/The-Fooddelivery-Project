@@ -115,7 +115,7 @@ function renderDrinksCart() {
     checkoutBtnD.disabled = false;
     checkoutBtnD.classList.remove('btn-disabled');
     checkoutBtnD.classList.add('btn-primary');
-    checkoutBtnD.onclick = () => window.location.href = 'checkout.html';
+    checkoutBtnD.onclick = () => window.location.href = 'cart.html';
   }
 
   let subtotal = 0;
