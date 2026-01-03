@@ -110,11 +110,13 @@ function renderBurgerCart() {
     checkoutBtnB.disabled = true;
     checkoutBtnB.classList.add('btn-disabled');
     checkoutBtnB.classList.remove('btn-primary');
+    checkoutBtnB.onclick = null;
   } else {
     cartEmptyTextElB.style.display = 'none';
     checkoutBtnB.disabled = false;
     checkoutBtnB.classList.remove('btn-disabled');
     checkoutBtnB.classList.add('btn-primary');
+    checkoutBtnB.onclick = () => window.location.href = 'cart.html';
   }
 
   let subtotal = 0;

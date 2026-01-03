@@ -8,7 +8,44 @@
     "rating": 4.7,
     "tags": ["Supermarket", "Groceries", "Household"],
     "heroImage": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/2292919/pexels-photo-2292919.jpeg",
+    "products": [
+      {
+        "id": "af1",
+        "name": "Olper's Milk 1L",
+        "price": 285,
+        "image": "https://images.pexels.com/photos/236010/pexels-photo-236010.jpeg",
+        "category": "Dairy"
+      },
+      {
+        "id": "af2",
+        "name": "Tapal Danedar Tea 950g",
+        "price": 850,
+        "image": "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg",
+        "category": "Beverages"
+      },
+      {
+        "id": "af3",
+        "name": "White Sugar 1kg",
+        "price": 120,
+        "image": "https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg",
+        "category": "Staples"
+      },
+      {
+        "id": "af4",
+        "name": "Basmati Rice 5kg",
+        "price": 1450,
+        "image": "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg",
+        "category": "Staples"
+      },
+      {
+        "id": "af5",
+        "name": "Cooking Oil 1L",
+        "price": 425,
+        "image": "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg",
+        "category": "Cooking"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,7 +56,44 @@
     "rating": 4.8,
     "tags": ["Hypermarket", "Everything", "Best Prices"],
     "heroImage": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+    "products": [
+      {
+        "id": "im1",
+        "name": "Haleeb Milk 1.5L",
+        "price": 380,
+        "image": "https://images.pexels.com/photos/1446075/pexels-photo-1446075.jpeg",
+        "category": "Dairy"
+      },
+      {
+        "id": "im2",
+        "name": "Lipton Yellow Label Tea",
+        "price": 720,
+        "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg",
+        "category": "Beverages"
+      },
+      {
+        "id": "im3",
+        "name": "Brown Sugar 500g",
+        "price": 95,
+        "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+        "category": "Staples"
+      },
+      {
+        "id": "im4",
+        "name": "Wheat Flour 10kg",
+        "price": 1250,
+        "image": "https://images.pexels.com/photos/1387070/pexels-photo-1387070.jpeg",
+        "category": "Staples"
+      },
+      {
+        "id": "im5",
+        "name": "Surf Excel Detergent",
+        "price": 785,
+        "image": "https://images.pexels.com/photos/4239019/pexels-photo-4239019.jpeg",
+        "category": "Household"
+      }
+    ]
   },
   {
     "id": 3,
@@ -30,7 +104,44 @@
     "rating": 4.6,
     "tags": ["Bakery", "Fresh Bread", "Cakes"],
     "heroImage": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
+    "products": [
+      {
+        "id": "js1",
+        "name": "White Bread Loaf",
+        "price": 90,
+        "image": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
+        "category": "Bread"
+      },
+      {
+        "id": "js2",
+        "name": "Chocolate Cake",
+        "price": 650,
+        "image": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg",
+        "category": "Cakes"
+      },
+      {
+        "id": "js3",
+        "name": "Tea Rusks",
+        "price": 120,
+        "image": "https://images.pexels.com/photos/1775037/pexels-photo-1775037.jpeg",
+        "category": "Biscuits"
+      },
+      {
+        "id": "js4",
+        "name": "Cream Rolls 6pcs",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg",
+        "category": "Pastries"
+      },
+      {
+        "id": "js5",
+        "name": "Butter Cookies",
+        "price": 250,
+        "image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg",
+        "category": "Cookies"
+      }
+    ]
   },
   {
     "id": 4,
@@ -41,7 +152,44 @@
     "rating": 4.5,
     "tags": ["Bakery", "Biscuits", "Pastries"],
     "heroImage": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg",
+    "products": [
+      {
+        "id": "rb1",
+        "name": "Multigrain Bread",
+        "price": 110,
+        "image": "https://images.pexels.com/photos/1775037/pexels-photo-1775037.jpeg",
+        "category": "Bread"
+      },
+      {
+        "id": "rb2",
+        "name": "Chocolate Donuts 4pcs",
+        "price": 320,
+        "image": "https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg",
+        "category": "Donuts"
+      },
+      {
+        "id": "rb3",
+        "name": "Fruit Pastries",
+        "price": 140,
+        "image": "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg",
+        "category": "Pastries"
+      },
+      {
+        "id": "rb4",
+        "name": "Chicken Patties 2pcs",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg",
+        "category": "Savory"
+      },
+      {
+        "id": "rb5",
+        "name": "Tea Biscuits",
+        "price": 160,
+        "image": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
+        "category": "Biscuits"
+      }
+    ]
   },
   {
     "id": 5,
@@ -52,7 +200,44 @@
     "rating": 4.7,
     "tags": ["Bakery", "Cookies", "Sweets"],
     "heroImage": "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg",
+    "products": [
+      {
+        "id": "ub1",
+        "name": "Whole Wheat Bread",
+        "price": 95,
+        "image": "https://images.pexels.com/photos/209403/pexels-photo-209403.jpeg",
+        "category": "Bread"
+      },
+      {
+        "id": "ub2",
+        "name": "Black Forest Cake",
+        "price": 1250,
+        "image": "https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg",
+        "category": "Cakes"
+      },
+      {
+        "id": "ub3",
+        "name": "Chocolate Chip Cookies",
+        "price": 280,
+        "image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg",
+        "category": "Cookies"
+      },
+      {
+        "id": "ub4",
+        "name": "Danish Pastry",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/2064343/pexels-photo-2064343.jpeg",
+        "category": "Pastries"
+      },
+      {
+        "id": "ub5",
+        "name": "Brownies 6pcs",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg",
+        "category": "Desserts"
+      }
+    ]
   },
   {
     "id": 6,
@@ -63,7 +248,44 @@
     "rating": 4.7,
     "tags": ["Health & Wellbeing"],
     "heroImage": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg",
+    "products": [
+      {
+        "id": "mc1",
+        "name": "Panadol Extra 24 Tablets",
+        "price": 85,
+        "image": "https://images.pexels.com/photos/163944/pexels-photo-163944.jpeg",
+        "category": "Medicine"
+      },
+      {
+        "id": "mc2",
+        "name": "Hand Sanitizer 500ml",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/4226799/pexels-photo-4226799.jpeg",
+        "category": "Hygiene"
+      },
+      {
+        "id": "mc3",
+        "name": "Face Masks 50pcs",
+        "price": 250,
+        "image": "https://images.pexels.com/photos/3957987/pexels-photo-3957987.jpeg",
+        "category": "Safety"
+      },
+      {
+        "id": "mc4",
+        "name": "Vitamin C Tablets",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/4226792/pexels-photo-4226792.jpeg",
+        "category": "Supplements"
+      },
+      {
+        "id": "mc5",
+        "name": "Digital Thermometer",
+        "price": 850,
+        "image": "https://images.pexels.com/photos/4269365/pexels-photo-4269365.jpeg",
+        "category": "Medical Devices"
+      }
+    ]
   },
   {
     "id": 7,
@@ -74,7 +296,44 @@
     "rating": 4.4,
     "tags": ["Beauty", "Cosmetics"],
     "heroImage": "https://images.pexels.com/photos/3738364/pexels-photo-3738364.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/3738364/pexels-photo-3738364.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/3738364/pexels-photo-3738364.jpeg",
+    "products": [
+      {
+        "id": "ab1",
+        "name": "Face Cream SPF 30",
+        "price": 1250,
+        "image": "https://images.pexels.com/photos/3997989/pexels-photo-3997989.jpeg",
+        "category": "Skincare"
+      },
+      {
+        "id": "ab2",
+        "name": "Lipstick Matte Finish",
+        "price": 680,
+        "image": "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg",
+        "category": "Makeup"
+      },
+      {
+        "id": "ab3",
+        "name": "Shampoo 400ml",
+        "price": 520,
+        "image": "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg",
+        "category": "Hair Care"
+      },
+      {
+        "id": "ab4",
+        "name": "Nail Polish Set 5pcs",
+        "price": 950,
+        "image": "https://images.pexels.com/photos/3373736/pexels-photo-3373736.jpeg",
+        "category": "Nails"
+      },
+      {
+        "id": "ab5",
+        "name": "Perfume 50ml",
+        "price": 1850,
+        "image": "https://images.pexels.com/photos/3738386/pexels-photo-3738386.jpeg",
+        "category": "Fragrance"
+      }
+    ]
   },
   {
     "id": 8,
@@ -85,7 +344,44 @@
     "rating": 4.5,
     "tags": ["Groceries", "Fresh Produce"],
     "heroImage": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/1656666/pexels-photo-1656666.jpeg",
+    "products": [
+      {
+        "id": "fm1",
+        "name": "Fresh Tomatoes 1kg",
+        "price": 80,
+        "image": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg",
+        "category": "Vegetables"
+      },
+      {
+        "id": "fm2",
+        "name": "Bananas 1 Dozen",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg",
+        "category": "Fruits"
+      },
+      {
+        "id": "fm3",
+        "name": "Eggs 1 Dozen",
+        "price": 220,
+        "image": "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg",
+        "category": "Protein"
+      },
+      {
+        "id": "fm4",
+        "name": "Fresh Chicken 1kg",
+        "price": 520,
+        "image": "https://images.pexels.com/photos/4106483/pexels-photo-4106483.jpeg",
+        "category": "Meat"
+      },
+      {
+        "id": "fm5",
+        "name": "Sliced Bread",
+        "price": 85,
+        "image": "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg",
+        "category": "Bakery"
+      }
+    ]
   },
   {
     "id": 9,
@@ -96,7 +392,44 @@
     "rating": 4.8,
     "tags": ["Fruits & Vegetables", "Organic"],
     "heroImage": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg",
+    "products": [
+      {
+        "id": "gv1",
+        "name": "Organic Apples 1kg",
+        "price": 280,
+        "image": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg",
+        "category": "Organic Fruits"
+      },
+      {
+        "id": "gv2",
+        "name": "Fresh Spinach 500g",
+        "price": 60,
+        "image": "https://images.pexels.com/photos/2255935/pexels-photo-2255935.jpeg",
+        "category": "Leafy Greens"
+      },
+      {
+        "id": "gv3",
+        "name": "Organic Carrots 1kg",
+        "price": 90,
+        "image": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg",
+        "category": "Root Vegetables"
+      },
+      {
+        "id": "gv4",
+        "name": "Fresh Strawberries 250g",
+        "price": 320,
+        "image": "https://images.pexels.com/photos/70746/strawberries-red-fruit-royalty-free-70746.jpeg",
+        "category": "Berries"
+      },
+      {
+        "id": "gv5",
+        "name": "Organic Broccoli 500g",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/47347/broccoli-vegetable-food-healthy-47347.jpeg",
+        "category": "Vegetables"
+      }
+    ]
   },
   {
     "id": 10,
@@ -107,6 +440,43 @@
     "rating": 4.6,
     "tags": ["Health & Wellbeing", "Medicines"],
     "heroImage": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg",
-    "thumbnail": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg"
+    "thumbnail": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg",
+    "products": [
+      {
+        "id": "hp1",
+        "name": "Disprin 16 Tablets",
+        "price": 55,
+        "image": "https://images.pexels.com/photos/163944/pexels-photo-163944.jpeg",
+        "category": "Medicine"
+      },
+      {
+        "id": "hp2",
+        "name": "Cough Syrup 100ml",
+        "price": 195,
+        "image": "https://images.pexels.com/photos/356054/pexels-photo-356054.jpeg",
+        "category": "Medicine"
+      },
+      {
+        "id": "hp3",
+        "name": "First Aid Kit",
+        "price": 650,
+        "image": "https://images.pexels.com/photos/3683041/pexels-photo-3683041.jpeg",
+        "category": "Medical Supplies"
+      },
+      {
+        "id": "hp4",
+        "name": "Blood Pressure Monitor",
+        "price": 2850,
+        "image": "https://images.pexels.com/photos/7108347/pexels-photo-7108347.jpeg",
+        "category": "Medical Devices"
+      },
+      {
+        "id": "hp5",
+        "name": "Multivitamin Tablets",
+        "price": 580,
+        "image": "https://images.pexels.com/photos/3683041/pexels-photo-3683041.jpeg",
+        "category": "Supplements"
+      }
+    ]
   }
 ]

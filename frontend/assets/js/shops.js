@@ -217,32 +217,61 @@ function renderShopsAndProducts(shops, products) {
     shopsRowEl.appendChild(createShopCard(shop));
   });
 
-  // Group products by category - match with new product categories
-  const fresh = products.filter((p) => p.category && (
-    p.category.includes('Al-Fateh') || 
-    p.category.includes('Imtiaz') ||
-    p.category.includes('Freshly Picked For You')
-  ));
+  // Collect all shop products from shops.json
+  let allShopProducts = [];
+  shops.forEach(shop => {
+    if (shop.products && Array.isArray(shop.products)) {
+      shop.products.forEach(product => {
+        allShopProducts.push({
+          ...product,
+          shopName: shop.name,
+          shopId: shop.id
+        });
+      });
+    }
+  });
+
+  // Group products by shop type for different sections
+  const groceryShops = shops.filter(s => 
+    s.type === 'Supermarket' || s.type === 'Hypermarket' || s.type === 'Groceries'
+  );
   
-  const bakery = products.filter((p) => p.category && (
-    p.category.includes('Jalal Sons') ||
-    p.category.includes('Rahat') ||
-    p.category.includes('United') ||
-    p.category.includes('Beauty Boutique')
-  ));
+  const bakeryShops = shops.filter(s => s.type === 'Bakery');
   
-  const tissues = products.filter((p) => p.category === 'Prime Tissues');
-  const health = products.filter((p) => p.category === 'Health Essentials');
+  const beautyShops = shops.filter(s => s.type === 'Beauty');
+  
+  const healthShops = shops.filter(s => s.type === 'Pharmacy');
+
+  // Get products from each category
+  const groceryProducts = [];
+  groceryShops.forEach(shop => {
+    if (shop.products) groceryProducts.push(...shop.products);
+  });
+
+  const bakeryProducts = [];
+  bakeryShops.forEach(shop => {
+    if (shop.products) bakeryProducts.push(...shop.products);
+  });
+
+  const beautyProducts = [];
+  beautyShops.forEach(shop => {
+    if (shop.products) beautyProducts.push(...shop.products);
+  });
+
+  const healthProducts = [];
+  healthShops.forEach(shop => {
+    if (shop.products) healthProducts.push(...shop.products);
+  });
 
   freshRowEl.innerHTML = '';
   beautyRowEl.innerHTML = '';
   tissuesRowEl.innerHTML = '';
   healthRowEl.innerHTML = '';
 
-  fresh.slice(0, 10).forEach((p) => freshRowEl.appendChild(createProductCard(p)));
-  bakery.slice(0, 10).forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
-  tissues.slice(0, 10).forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
-  health.slice(0, 10).forEach((p) => healthRowEl.appendChild(createProductCard(p)));
+  groceryProducts.slice(0, 10).forEach((p) => freshRowEl.appendChild(createProductCard(p)));
+  bakeryProducts.slice(0, 10).forEach((p) => beautyRowEl.appendChild(createProductCard(p)));
+  beautyProducts.slice(0, 10).forEach((p) => tissuesRowEl.appendChild(createProductCard(p)));
+  healthProducts.slice(0, 10).forEach((p) => healthRowEl.appendChild(createProductCard(p)));
 }
 
 // Search event listeners
