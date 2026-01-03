@@ -23,7 +23,18 @@
           
           <div class="address-preview" id="address-preview">
             <div class="map-thumbnail" id="map-thumbnail">
-              📍
+              <iframe 
+                width="100%" 
+                height="150" 
+                style="border:0; border-radius: 8px;" 
+                loading="lazy" 
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=73.0%2C33.5%2C74.5%2C31.7&layer=mapnik&marker=33.738045%2C73.084488">
+              </iframe>
+              <small style="display: block; margin-top: 5px; font-size: 11px; color: #666;">
+                Click map to select your location
+              </small>
             </div>
             <div class="saved-address" id="saved-address">
               <p class="address-text">No address saved yet</p>

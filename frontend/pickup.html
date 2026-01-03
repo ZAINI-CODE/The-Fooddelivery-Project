@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pick-up - QuickBite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/restaurants.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body data-page="pickup">
+  <div data-include="partials/header.html"></div>
+
+  <!-- Search -->
+  <section class="search-section">
+    <div class="search-inner">
+      <input
+        type="text"
+        id="pickup-search"
+        class="search-input"
+        placeholder="Search for famous breakfast & dinner spots"
+      />
+      <button class="search-btn" id="pickup-search-btn">Search</button>
+    </div>
+  </section>
+
+  <main class="page-main with-sidebar with-cart">
+    <!-- Left filters -->
+    <aside class="filters">
+      <h3>Filters</h3>
+
+      <div class="filter-group">
+        <p class="filter-title">Meal Type</p>
+        <label><input type="radio" name="meal-type" value="" checked /> All</label>
+        <label><input type="radio" name="meal-type" value="Breakfast" /> Breakfast</label>
+        <label><input type="radio" name="meal-type" value="Dinner" /> Dinner</label>
+      </div>
+
+      <div class="filter-group">
+        <p class="filter-title">Minimum rating</p>
+        <label><input type="radio" name="rating" value="" checked /> Any</label>
+        <label><input type="radio" name="rating" value="4.0" /> 4.0+</label>
+        <label><input type="radio" name="rating" value="4.3" /> 4.3+</label>
+        <label><input type="radio" name="rating" value="4.5" /> 4.5+</label>
+      </div>
+    </aside>
+
+    <!-- Center content -->
+    <section class="content">
+      <section class="section-block">
+        <h2>Famous Lahore Breakfast & Dinner Spots</h2>
+        <div id="pickup-restaurants-row" class="card-row"></div>
+      </section>
+
+      <section class="section-block">
+        <h2>Featured Dishes</h2>
+        <div id="pickup-products-row" class="product-row"></div>
+      </section>
+    </section>
+
+    <!-- Right cart -->
+    <aside class="cart-panel">
+      <h3>Your cart</h3>
+      <p class="muted" id="cart-empty-text">Start adding items to your cart</p>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <div class="cart-summary">
+        <div class="cart-line">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">Rs. 0</span>
+        </div>
+        <div class="cart-line strong">
+          <span>Total (incl. fees and tax)</span>
+          <span id="cart-total">Rs. 0</span>
+        </div>
+        <button class="btn btn-disabled" id="checkout-btn" disabled>
+          Go to your cart
+        </button>
+      </div>
+    </aside>
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="assets/js/utils/dom-utils.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/pickup.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "name": "Butt Karahi",
+    "city": "Lahore",
+    "cuisine": "Pakistani, BBQ, Karahi",
+    "type": "Dinner",
+    "rating": 4.7,
+    "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "bk1",
+        "name": "Mutton Karahi (Full)",
+        "price": 3200,
+        "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "bk2",
+        "name": "Chicken Karahi (Full)",
+        "price": 2100,
+        "image": "https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "bk3",
+        "name": "Seekh Kebab (6 pcs)",
+        "price": 780,
+        "image": "https://images.pexels.com/photos/6759511/pexels-photo-6759511.jpeg",
+        "category": "BBQ"
+      },
+      {
+        "id": "bk4",
+        "name": "Garlic Naan",
+        "price": 80,
+        "image": "https://images.pexels.com/photos/5419336/pexels-photo-5419336.jpeg",
+        "category": "Bread"
+      },
+      {
+        "id": "bk5",
+        "name": "Raita",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/6210747/pexels-photo-6210747.jpeg",
+        "category": "Sides"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bundu Khan",
+    "city": "Lahore",
+    "cuisine": "BBQ, Pakistani, Karahi",
+    "type": "Dinner",
+    "rating": 4.6,
+    "image": "https://images.pexels.com/photos/3298180/pexels-photo-3298180.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "bn1",
+        "name": "Mutton Ribs (1 kg)",
+        "price": 2850,
+        "image": "https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg",
+        "category": "BBQ"
+      },
+      {
+        "id": "bn2",
+        "name": "Chicken Tikka (10 pcs)",
+        "price": 980,
+        "image": "https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg",
+        "category": "BBQ"
+      },
+      {
+        "id": "bn3",
+        "name": "Handi (Chicken)",
+        "price": 1850,
+        "image": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "bn4",
+        "name": "Roghni Naan",
+        "price": 70,
+        "image": "https://images.pexels.com/photos/5419336/pexels-photo-5419336.jpeg",
+        "category": "Bread"
+      },
+      {
+        "id": "bn5",
+        "name": "Green Salad",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "category": "Sides"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Goga's",
+    "city": "Lahore",
+    "cuisine": "Fast Food, Burgers",
+    "type": "Dinner",
+    "rating": 4.5,
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "gg1",
+        "name": "Goga Burger",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+        "category": "Burgers"
+      },
+      {
+        "id": "gg2",
+        "name": "Chicken Burger",
+        "price": 380,
+        "image": "https://images.pexels.com/photos/1556688/pexels-photo-1556688.jpeg",
+        "category": "Burgers"
+      },
+      {
+        "id": "gg3",
+        "name": "Loaded Fries",
+        "price": 320,
+        "image": "https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg",
+        "category": "Sides"
+      },
+      {
+        "id": "gg4",
+        "name": "Chicken Wings (8 pcs)",
+        "price": 550,
+        "image": "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg",
+        "category": "Starters"
+      },
+      {
+        "id": "gg5",
+        "name": "Cold Drink 1.5L",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg",
+        "category": "Beverages"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Jalal Paye & Halwa Puri",
+    "city": "Lahore",
+    "cuisine": "Breakfast, Traditional",
+    "type": "Breakfast",
+    "rating": 4.8,
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "jp1",
+        "name": "Paye (1 serving)",
+        "price": 450,
+        "image": "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
+        "category": "Main"
+      },
+      {
+        "id": "jp2",
+        "name": "Halwa Puri Plate",
+        "price": 280,
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "category": "Breakfast"
+      },
+      {
+        "id": "jp3",
+        "name": "Channay",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/4553037/pexels-photo-4553037.jpeg",
+        "category": "Sides"
+      },
+      {
+        "id": "jp4",
+        "name": "Lassi (Sweet)",
+        "price": 120,
+        "image": "https://images.pexels.com/photos/1540337/pexels-photo-1540337.jpeg",
+        "category": "Beverages"
+      },
+      {
+        "id": "jp5",
+        "name": "Paratha (2 pcs)",
+        "price": 100,
+        "image": "https://images.pexels.com/photos/5419336/pexels-photo-5419336.jpeg",
+        "category": "Bread"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Café Aylanto",
+    "city": "Lahore",
+    "cuisine": "Continental, Breakfast",
+    "type": "Breakfast",
+    "rating": 4.7,
+    "image": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "ca1",
+        "name": "English Breakfast",
+        "price": 1250,
+        "image": "https://images.pexels.com/photos/101533/pexels-photo-101533.jpeg",
+        "category": "Breakfast"
+      },
+      {
+        "id": "ca2",
+        "name": "Pancakes with Maple Syrup",
+        "price": 950,
+        "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+        "category": "Breakfast"
+      },
+      {
+        "id": "ca3",
+        "name": "Omelette (3 eggs)",
+        "price": 680,
+        "image": "https://images.pexels.com/photos/824635/pexels-photo-824635.jpeg",
+        "category": "Breakfast"
+      },
+      {
+        "id": "ca4",
+        "name": "Fresh Orange Juice",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/1435740/pexels-photo-1435740.jpeg",
+        "category": "Beverages"
+      },
+      {
+        "id": "ca5",
+        "name": "Cappuccino",
+        "price": 380,
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg",
+        "category": "Beverages"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Yum Chinese",
+    "city": "Lahore",
+    "cuisine": "Chinese, Asian",
+    "type": "Dinner",
+    "rating": 4.4,
+    "image": "https://images.pexels.com/photos/1907244/pexels-photo-1907244.jpeg",
+    "open": true,
+    "products": [
+      {
+        "id": "yc1",
+        "name": "Chicken Chow Mein",
+        "price": 780,
+        "image": "https://images.pexels.com/photos/1907244/pexels-photo-1907244.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "yc2",
+        "name": "Fried Rice (Chicken)",
+        "price": 650,
+        "image": "https://images.pexels.com/photos/725990/pexels-photo-725990.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "yc3",
+        "name": "Spring Rolls (6 pcs)",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/2313686/pexels-photo-2313686.jpeg",
+        "category": "Appetizers"
+      },
+      {
+        "id": "yc4",
+        "name": "Sweet & Sour Chicken",
+        "price": 950,
+        "image": "https://images.pexels.com/photos/3590401/pexels-photo-3590401.jpeg",
+        "category": "Main Course"
+      },
+      {
+        "id": "yc5",
+        "name": "Hot & Sour Soup",
+        "price": 380,
+        "image": "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg",
+        "category": "Soups"
+      }
+    ]
+  }
+]
