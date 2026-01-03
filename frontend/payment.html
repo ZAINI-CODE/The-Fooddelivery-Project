@@ -21,55 +21,71 @@
         <section class="payment-card">
           <h3 class="payment-card-title">Delivery address</h3>
           
-          <div class="address-preview" id="address-preview">
-            <div class="map-thumbnail" id="map-thumbnail">
-              <iframe 
-                width="100%" 
-                height="150" 
-                style="border:0; border-radius: 8px;" 
-                loading="lazy" 
-                allowfullscreen
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=73.0%2C33.5%2C74.5%2C31.7&layer=mapnik&marker=33.738045%2C73.084488">
-              </iframe>
-              <small style="display: block; margin-top: 5px; font-size: 11px; color: #666;">
-                Click map to select your location
-              </small>
-            </div>
-            <div class="saved-address" id="saved-address">
-              <p class="address-text">No address saved yet</p>
-              <button class="edit-link" id="edit-address-btn">Edit address</button>
-            </div>
+          <!-- Embedded Map -->
+          <div class="map-container" id="map-container">
+            <iframe 
+              id="location-map"
+              width="100%" 
+              height="250" 
+              style="border:0; border-radius: 12px 12px 0 0;" 
+              loading="lazy" 
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=74.2%2C31.4%2C74.4%2C31.6&layer=mapnik&marker=31.5204%2C74.3587">
+            </iframe>
           </div>
-
-          <form class="address-form" id="address-form" style="display: none;">
-            <div class="form-group">
-              <label for="street">Street address *</label>
-              <input type="text" id="street" name="street" required 
-                placeholder="Enter your street address" />
+          
+          <!-- Current Location Row -->
+          <div class="current-location-row" id="current-location-row">
+            <div class="location-info">
+              <span class="location-icon">📍</span>
+              <span class="location-text" id="location-text">Lahore</span>
+            </div>
+            <button class="edit-link" id="edit-address-btn">Edit</button>
+          </div>
+          
+          <!-- Details Input Section -->
+          <form class="address-details-form" id="address-form">
+            <div class="missing-street-prompt" id="missing-street-prompt">
+              <strong>We're missing your street</strong>
             </div>
             
-            <div class="form-row">
-              <div class="form-group">
-                <label for="floor">Floor/Apartment</label>
-                <input type="text" id="floor" name="floor" 
-                  placeholder="e.g., 3rd Floor, Apt 4B" />
+            <div class="form-group">
+              <input type="text" id="street" name="street" required 
+                placeholder="Street" class="form-input" />
+            </div>
+            
+            <div class="form-group">
+              <input type="text" id="floor" name="floor" 
+                placeholder="Floor" class="form-input" />
+            </div>
+
+            <div class="form-group">
+              <textarea id="notes" name="notes" rows="2" 
+                placeholder="Note to rider - e.g. building, landmark" class="form-input"></textarea>
+            </div>
+
+            <!-- Label Row -->
+            <div class="label-section">
+              <div class="label-title">Add a Label</div>
+              <div class="label-chips">
+                <button type="button" class="label-chip" data-label="Home">
+                  <span class="label-icon">🏠</span> Home
+                </button>
+                <button type="button" class="label-chip" data-label="Work">
+                  <span class="label-icon">💼</span> Work
+                </button>
+                <button type="button" class="label-chip" data-label="Partner">
+                  <span class="label-icon">❤️</span> Partner
+                </button>
+                <button type="button" class="label-chip" data-label="Other">
+                  <span class="label-icon">📍</span> Other
+                </button>
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="notes">Delivery notes</label>
-              <textarea id="notes" name="notes" rows="2" 
-                placeholder="Any special instructions for the rider"></textarea>
-            </div>
-
-            <div class="label-chips">
-              <button type="button" class="chip-btn" data-label="Home">🏠 Home</button>
-              <button type="button" class="chip-btn" data-label="Work">💼 Work</button>
-              <button type="button" class="chip-btn" data-label="Other">📍 Other</button>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Save and continue</button>
+            <!-- Primary Action Button -->
+            <button type="submit" class="btn btn-save-continue">Save and continue</button>
           </form>
         </section>
 

@@ -17,11 +17,12 @@ if (cart.length === 0) {
 }
 
 // DOM Elements
-const addressPreview = document.getElementById('address-preview');
-const savedAddressEl = document.getElementById('saved-address');
+const locationText = document.getElementById('location-text');
+const currentLocationRow = document.getElementById('current-location-row');
 const editAddressBtn = document.getElementById('edit-address-btn');
 const addressForm = document.getElementById('address-form');
-const mapThumbnail = document.getElementById('map-thumbnail');
+const locationMap = document.getElementById('location-map');
+const missingStreetPrompt = document.getElementById('missing-street-prompt');
 
 const deliveryOptions = document.querySelectorAll('input[name="delivery-type"]');
 const scheduledPicker = document.getElementById('scheduled-picker');
@@ -106,42 +107,35 @@ function loadSavedData() {
 
 // Display saved address
 function displaySavedAddress(addr) {
-  if (savedAddressEl) {
-    savedAddressEl.innerHTML = `
-      <p class="address-text">
-        <strong>${addr.label || 'Address'}</strong><br/>
-        ${addr.street}${addr.floor ? ', ' + addr.floor : ''}
-        ${addr.notes ? '<br/><em>' + addr.notes + '</em>' : ''}
-      </p>
-      <button class="edit-link" id="edit-address-btn">Edit address</button>
-    `;
+  if (locationText) {
+    locationText.textContent = addr.label ? `${addr.label} - ${addr.street}` : addr.street || 'Lahore';
+  }
+  
+  if (missingStreetPrompt && addr.street) {
+    missingStreetPrompt.style.display = 'none';
+  }
+  
+  // Pre-fill form fields
+  if (addressForm) {
+    document.getElementById('street').value = addr.street || '';
+    document.getElementById('floor').value = addr.floor || '';
+    document.getElementById('notes').value = addr.notes || '';
     
-    // Re-attach event listener
-    const newEditBtn = document.getElementById('edit-address-btn');
-    if (newEditBtn) {
-      newEditBtn.addEventListener('click', showAddressForm);
+    // Select label chip
+    const labelChip = document.querySelector(`.label-chip[data-label="${addr.label}"]`);
+    if (labelChip) {
+      document.querySelectorAll('.label-chip').forEach(b => b.classList.remove('active'));
+      labelChip.classList.add('active');
     }
   }
 }
 
-// Show address form
+// Show address form (always visible in new design)
 function showAddressForm() {
-  if (addressForm) {
-    addressForm.style.display = 'block';
-    
-    // Pre-fill if editing
-    if (state.address) {
-      document.getElementById('street').value = state.address.street || '';
-      document.getElementById('floor').value = state.address.floor || '';
-      document.getElementById('notes').value = state.address.notes || '';
-      
-      // Select label chip
-      const labelBtn = document.querySelector(`.chip-btn[data-label="${state.address.label}"]`);
-      if (labelBtn) {
-        document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
-        labelBtn.classList.add('active');
-      }
-    }
+  // Form is always visible, just focus on first input
+  const streetInput = document.getElementById('street');
+  if (streetInput) {
+    streetInput.focus();
   }
 }
 
@@ -154,7 +148,7 @@ if (addressForm) {
     const floor = document.getElementById('floor').value.trim();
     const notes = document.getElementById('notes').value.trim();
     
-    const activeLabel = document.querySelector('.chip-btn.active');
+    const activeLabel = document.querySelector('.label-chip.active');
     const label = activeLabel ? activeLabel.dataset.label : 'Other';
     
     if (!street) {
@@ -166,7 +160,11 @@ if (addressForm) {
     localStorage.setItem('fd_delivery_address', JSON.stringify(state.address));
     
     displaySavedAddress(state.address);
-    addressForm.style.display = 'none';
+    
+    // Hide missing street prompt
+    if (missingStreetPrompt) {
+      missingStreetPrompt.style.display = 'none';
+    }
     
     checkFormCompletion();
     showToast('Address saved successfully');
@@ -174,16 +172,24 @@ if (addressForm) {
 }
 
 // Label chip selection
-document.querySelectorAll('.chip-btn').forEach(btn => {
+document.querySelectorAll('.label-chip').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.chip-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.label-chip').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   });
 });
 
-// Map thumbnail click
-if (mapThumbnail) {
-  mapThumbnail.addEventListener('click', showAddressForm);
+// Edit address button
+if (editAddressBtn) {
+  editAddressBtn.addEventListener('click', showAddressForm);
+}
+
+// Map click simulation (update location text on map click)
+if (locationMap) {
+  locationMap.addEventListener('load', () => {
+    // Simulate location selection from map
+    // In a real implementation, this would use a geocoding API
+  });
 }
 
 // Delivery options
