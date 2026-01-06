@@ -192,7 +192,7 @@ All JavaScript files are in `assets/js/` folder:
 
 #### **api.js** - Talks to Backend Server
 - **What it does**: Fetches data from the backend (restaurants, menus, products)
-- **Backend URL**: `http://localhost:5000`
+- **Backend URL**: `http://localhost:5000` (for development - would be different in production)
 - **Main functions**:
   - `window.api.getShops()` - Gets all shops
   - `window.api.getRestaurants()` - Gets all restaurants
@@ -363,7 +363,7 @@ Every page has these lines:
 <script src="assets/js/utils/dom-utils.js"></script>
 ```
 
-The `dom-utils.js` script finds all `data-include` elements and loads the HTML automatically. This way, header and footer appear on every page without copying code.
+The `dom-utils.js` script finds all `data-include` elements and loads the HTML automatically using the Fetch API. This is a **custom implementation** (not a standard HTML feature) that fetches the partial HTML files and inserts them into the page. This way, header and footer appear on every page without copying code.
 
 ### 4. **Cart Connection Across Pages**:
 ```
@@ -436,7 +436,10 @@ The frontend stores data in the browser using **localStorage**:
 | `fd_current_order` | Latest order details | checkout.js, track-order.js |
 | `fd_order_status` | Order status number (0-4) | track-order.js |
 
-**Note**: This data stays in your browser even after closing the page, but gets deleted if you clear browser data.
+**Note**: 
+- This data stays in your browser even after closing the page, but gets deleted if you clear browser data.
+- localStorage is **domain-specific** (data from this website can't be accessed by other websites)
+- Storage limit is typically **5-10MB per domain** (plenty for cart and user data)
 
 ---
 
